@@ -7,26 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
     <copyright>Copyleft - Deniz Atmaca - 2019</copyright>
-    <lastBuildDate>Wed, 08 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://denizatmaca.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Development</title>
-      <link>https://denizatmaca.com/categories/development/</link>
-      <pubDate>Wed, 08 May 2019 00:00:00 +0000</pubDate>
+      <title>Gezi</title>
+      <link>https://denizatmaca.com/categories/gezi/</link>
+      <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://denizatmaca.com/categories/development/</guid>
+      <guid>https://denizatmaca.com/categories/gezi/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>golang</title>
-      <link>https://denizatmaca.com/categories/golang/</link>
-      <pubDate>Wed, 08 May 2019 00:00:00 +0000</pubDate>
+      <title>Plastik Maket</title>
+      <link>https://denizatmaca.com/categories/plastik-maket/</link>
+      <pubDate>Sat, 16 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://denizatmaca.com/categories/golang/</guid>
+      <guid>https://denizatmaca.com/categories/plastik-maket/</guid>
       <description></description>
     </item>
     

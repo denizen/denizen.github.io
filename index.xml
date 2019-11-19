@@ -7,42 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
     <copyright>Copyleft - Deniz Atmaca - 2019</copyright>
-    <lastBuildDate>Wed, 08 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://denizatmaca.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Creating a New Theme</title>
-      <link>https://denizatmaca.com/post/creating-a-new-theme/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      <title>Benelüks Paris Turu</title>
+      <link>https://denizatmaca.com/post/beneluksparis/</link>
+      <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://denizatmaca.com/post/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+      <guid>https://denizatmaca.com/post/beneluksparis/</guid>
+      <description>Kasım’da aşk başkadır, Paris aşk şehridir, demek ki Kasım’da Paris başkadır diyerek çıktığımız, gitmişken Benelüks ülkelerini de görelim diyerekten yine dolu dolu bir hafta geçirdiğimiz bir turun daha sonuna geldik. Bu sefer elimden geldiğince teknik, sıkıcı, faydalı bir yazı yazma niyetindeyim. Gittik, geldik, yedik içtik. Yazı muhtemelen bunlardan oluşacak, turla gidecek olanlar, tursuz gidecek olanlar, siz de gelin.
+Başlık Başlangıç Kasım’da aşk başkadır, Paris aşk şehridir, demek ki Kasım’da Paris başkadır diyerek çıktığımız, gitmişken Benelüks ülkelerini de görelim diyerekten yine dolu dolu bir hafta geçirdiğimiz bir turun daha sonuna geldik.</description>
     </item>
     
     <item>
-      <title>(Hu)go Template Primer</title>
-      <link>https://denizatmaca.com/post/goisforlovers/</link>
-      <pubDate>Wed, 08 May 2019 00:00:00 +0000</pubDate>
+      <title>Kıyı Kıyı Ege Turu</title>
+      <link>https://denizatmaca.com/post/egeturu/</link>
+      <pubDate>Mon, 18 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://denizatmaca.com/post/goisforlovers/</guid>
-      <description>blablablsdfsd Hugo uses the excellent [go][] [html/template][gohtmltemplate] library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.</description>
+      <guid>https://denizatmaca.com/post/egeturu/</guid>
+      <description>Başlangıç Sonunda ben de yaptım bundan. Oh! Hem de çadırlı madırlı. Şimdi de utanmadan ne kadar da süper bir tatil yaptığımdan bahsedip birtakım önerilerde bulunacağım. Tüm tatil tek bir yerde kalıp, yüzüp, güneşlenip, çiroz gibi olup dönmeli tatilleri değil, gezmeli, görmeli tatilleri seven biri olarak çadırda kalacağız lafını duyunca düşünmeden atlayıp, birkaç saatte bir sırt çantası hazırlayıp yola koyuldum. İlk durağımız Balıkesir, Akçay. Yola gece çıkıp, sabaha anca Balıkesir’e vardığımızdan ötürü ilk günün sabahı hepimiz gebermiş haldeydik.</description>
     </item>
     
     <item>
-      <title>Getting Started with Hugo</title>
-      <link>https://denizatmaca.com/post/hugoisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>Otobüsle İtalya Turu</title>
+      <link>https://denizatmaca.com/post/italyaturu/</link>
+      <pubDate>Sun, 17 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://denizatmaca.com/post/hugoisforlovers/</guid>
-      <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at installing hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
- Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
+      <guid>https://denizatmaca.com/post/italyaturu/</guid>
+      <description>10 Günlük Otobüsle İtalya Yunanistan Turu 1-10 Eylül arasında otobüsle İtalya-Yunanistan gezisindeydim. Edindiğim tecrübeleri yazarak tura katılmak isteyen ya da herhangi bir yurt dışı turuna çıkmak isteyenlere yardımcı olayım dedim.
+Öncelikle direk katıldığım turla ilgili temel bir bilgi vereyim. Birçok farklı tur firmasının birebir aynı turları düzenlediğini görürsünüz. Onlar aslında gerçekten de birebir aynı turlar. Biz otobüste Pronto Tour, Jolly Tour ve Anı Tur olmak üzere 3 farklı tur firmasından insandık.</description>
+    </item>
+    
+    <item>
+      <title>Plastik Maket Dünyasına Giriş</title>
+      <link>https://denizatmaca.com/post/maket-baslangic/</link>
+      <pubDate>Sat, 16 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://denizatmaca.com/post/maket-baslangic/</guid>
+      <description>Başlangıç Sonunda ben de maket dünyasına giriş yapmış bulunuyorum. Bu keyifli hobiye tutulmamın sebebi Teknoseyir ekibinin konuya eğilmesi ve elbette konuk Burak Öztan’ın harika maketleri. İzlemek isterseniz sırasıyla şu videoları tavsiye ederim. http://www.teknoseyir.com/etiket/statik-modeller/ Bu linkteki 2 videodan önce “Yılların eskitemediği hobi: Plastik modelcilik” isimli videoyu, daha sonra da “Maketçiliği merak edenlere: İpuçları, öneriler, bilgiler” isimli videoyu izleyin. Bu iki videoyu izledikten sonra ilginizi çekerse şu videoları da öneririm. http://www.teknoseyir.com/etiket/maketcilik/ Bu linkteki videolardan önce “Maketçiliğe başlarken gerekli olan malzemeler” isimli videoyu, daha sonra “Örnek maket montajı yapma zamanı” ve son olarak “Maketlerin olmazsa olmazı boya nasıl uygulanır?</description>
     </item>
     
   </channel>

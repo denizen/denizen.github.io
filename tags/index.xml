@@ -7,62 +7,170 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
     <copyright>Copyleft - Deniz Atmaca - 2019</copyright>
-    <lastBuildDate>Wed, 08 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://denizatmaca.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>development</title>
-      <link>https://denizatmaca.com/tags/development/</link>
-      <pubDate>Wed, 08 May 2019 00:00:00 +0000</pubDate>
+      <title>brugge</title>
+      <link>https://denizatmaca.com/tags/brugge/</link>
+      <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://denizatmaca.com/tags/development/</guid>
+      <guid>https://denizatmaca.com/tags/brugge/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>go</title>
-      <link>https://denizatmaca.com/tags/go/</link>
-      <pubDate>Wed, 08 May 2019 00:00:00 +0000</pubDate>
+      <title>Brüksel</title>
+      <link>https://denizatmaca.com/tags/br%C3%BCksel/</link>
+      <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://denizatmaca.com/tags/go/</guid>
+      <guid>https://denizatmaca.com/tags/br%C3%BCksel/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>golang</title>
-      <link>https://denizatmaca.com/tags/golang/</link>
-      <pubDate>Wed, 08 May 2019 00:00:00 +0000</pubDate>
+      <title>gezi</title>
+      <link>https://denizatmaca.com/tags/gezi/</link>
+      <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://denizatmaca.com/tags/golang/</guid>
+      <guid>https://denizatmaca.com/tags/gezi/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>templates</title>
-      <link>https://denizatmaca.com/tags/templates/</link>
-      <pubDate>Wed, 08 May 2019 00:00:00 +0000</pubDate>
+      <title>lüksemburg</title>
+      <link>https://denizatmaca.com/tags/l%C3%BCksemburg/</link>
+      <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://denizatmaca.com/tags/templates/</guid>
+      <guid>https://denizatmaca.com/tags/l%C3%BCksemburg/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>themes</title>
-      <link>https://denizatmaca.com/tags/themes/</link>
-      <pubDate>Wed, 08 May 2019 00:00:00 +0000</pubDate>
+      <title>paris</title>
+      <link>https://denizatmaca.com/tags/paris/</link>
+      <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://denizatmaca.com/tags/themes/</guid>
+      <guid>https://denizatmaca.com/tags/paris/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>hugo</title>
-      <link>https://denizatmaca.com/tags/hugo/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>assos</title>
+      <link>https://denizatmaca.com/tags/assos/</link>
+      <pubDate>Mon, 18 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://denizatmaca.com/tags/hugo/</guid>
+      <guid>https://denizatmaca.com/tags/assos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cunda</title>
+      <link>https://denizatmaca.com/tags/cunda/</link>
+      <pubDate>Mon, 18 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://denizatmaca.com/tags/cunda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ege</title>
+      <link>https://denizatmaca.com/tags/ege/</link>
+      <pubDate>Mon, 18 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://denizatmaca.com/tags/ege/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kamp</title>
+      <link>https://denizatmaca.com/tags/kamp/</link>
+      <pubDate>Mon, 18 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://denizatmaca.com/tags/kamp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gzi</title>
+      <link>https://denizatmaca.com/tags/gzi/</link>
+      <pubDate>Sun, 17 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://denizatmaca.com/tags/gzi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>italya</title>
+      <link>https://denizatmaca.com/tags/italya/</link>
+      <pubDate>Sun, 17 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://denizatmaca.com/tags/italya/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pisa</title>
+      <link>https://denizatmaca.com/tags/pisa/</link>
+      <pubDate>Sun, 17 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://denizatmaca.com/tags/pisa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>venedik</title>
+      <link>https://denizatmaca.com/tags/venedik/</link>
+      <pubDate>Sun, 17 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://denizatmaca.com/tags/venedik/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>boya</title>
+      <link>https://denizatmaca.com/tags/boya/</link>
+      <pubDate>Sat, 16 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://denizatmaca.com/tags/boya/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fırça</title>
+      <link>https://denizatmaca.com/tags/f%C4%B1r%C3%A7a/</link>
+      <pubDate>Sat, 16 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://denizatmaca.com/tags/f%C4%B1r%C3%A7a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>maket bıçağı</title>
+      <link>https://denizatmaca.com/tags/maket-b%C4%B1%C3%A7a%C4%9F%C4%B1/</link>
+      <pubDate>Sat, 16 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://denizatmaca.com/tags/maket-b%C4%B1%C3%A7a%C4%9F%C4%B1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Plastik Maket</title>
+      <link>https://denizatmaca.com/tags/plastik-maket/</link>
+      <pubDate>Sat, 16 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://denizatmaca.com/tags/plastik-maket/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>revell</title>
+      <link>https://denizatmaca.com/tags/revell/</link>
+      <pubDate>Sat, 16 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://denizatmaca.com/tags/revell/</guid>
       <description></description>
     </item>
     
