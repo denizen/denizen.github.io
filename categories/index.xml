@@ -6,8 +6,8 @@
     <description>Recent content in Categories on Deniz Atmaca</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
-    <copyright>Copyleft - Deniz Atmaca - 2019</copyright>
-    <lastBuildDate>Tue, 19 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <copyright>2019 - Copyleft - Tüm hakları serbesttir.</copyright>
+    <lastBuildDate>Thu, 26 Sep 2013 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://denizatmaca.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,18 +15,27 @@
     <item>
       <title>Gezi</title>
       <link>https://denizatmaca.com/categories/gezi/</link>
-      <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 26 Sep 2013 00:00:00 +0000</pubDate>
       
       <guid>https://denizatmaca.com/categories/gezi/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Plastik Maket</title>
-      <link>https://denizatmaca.com/categories/plastik-maket/</link>
-      <pubDate>Sat, 16 Nov 2019 00:00:00 +0000</pubDate>
+      <title>Konu Dışı</title>
+      <link>https://denizatmaca.com/categories/konu-d%C4%B1%C5%9F%C4%B1/</link>
+      <pubDate>Thu, 27 Jun 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://denizatmaca.com/categories/plastik-maket/</guid>
+      <guid>https://denizatmaca.com/categories/konu-d%C4%B1%C5%9F%C4%B1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>İnceleme</title>
+      <link>https://denizatmaca.com/categories/inceleme/</link>
+      <pubDate>Sun, 15 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://denizatmaca.com/categories/inceleme/</guid>
       <description></description>
     </item>
     
