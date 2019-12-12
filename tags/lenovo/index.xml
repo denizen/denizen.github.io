@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>lenovo on Deniz Atmaca</title>
+    <link>https://denizatmaca.com/tags/lenovo/</link>
+    <description>Recent content in lenovo on Deniz Atmaca</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tr</language>
+    <copyright>2019 - Copyleft - Tüm hakları serbesttir.</copyright>
+    <lastBuildDate>Mon, 16 Jan 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://denizatmaca.com/tags/lenovo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Lenovo Thinkpad Edge 15 İncelemesi</title>
+      <link>https://denizatmaca.com/post/17-lenovo-thinkpad/</link>
+      <pubDate>Mon, 16 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://denizatmaca.com/post/17-lenovo-thinkpad/</guid>
+      <description>Bundan önceki bilgisayarım Acer Aspire 4710G modeliydi. Yaklaşık 3 senelik birlikteliğimize nokta koyarak daha bilinçli bir makina alma niyetindeydim. Eski makinamı değiştirmek istememin en büyük sebebi işlemcisinin Core Duo olması ve Linux dağıtımları ile pek iyi geçinememesiydi. Core Duo işlemci hemen her işlem için yeterliyken, iş VirtualBox üzerinde aynı anda 2 işletim sistemi çalıştırmaya gelince tam anlamıyla fiyasko bir performans gösteriyordu. Alacağım makinada aradığım birkaç özellik vardı. Linux ile uyumu yüzünden Nvidia ekran kartı, olabildiğince küçük ekran (13 veya daha küçük) ve Thinkpad.</description>
+    </item>
+    
+  </channel>
+</rss>
