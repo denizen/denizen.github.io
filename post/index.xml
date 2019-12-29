@@ -7,10 +7,32 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
     <copyright>2019 - Copyleft - Tüm hakları serbesttir.</copyright>
-    <lastBuildDate>Thu, 20 Nov 2014 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 29 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://denizatmaca.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bilgisayarınıza Hugo Yüklemek</title>
+      <link>https://denizatmaca.com/post/21-hugo-yukleme/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://denizatmaca.com/post/21-hugo-yukleme/</guid>
+      <description>Bir önceki yazımda static site generator&amp;rsquo;lardan bahsetmiştim. Hugo nedir diye merak ediyorsanız o yazıya göz atabilirsiniz.
+Bu yazıda ise Windows bilgisayarınıza Hugo nasıl yüklenir bunu öğreneceğiz.
+Öncelikle şuradaki adresi ziyaret edip, sayfanın altında yer alan versiyonlardan işletim sisteminize uygun olanı bilgisayarınıza indirin. C dizinin altına Hugo adında yeni bir klasör oluşturun. Onun altına da bin adında yeni bir klasör oluşturun. Bilgisayarınıza indirdiğiniz zip dosyasının içerisindeki tüm dosyaları bin klasörünün altına kopyalayın.</description>
+    </item>
+    
+    <item>
+      <title>Static Site Dünyasına Giriş</title>
+      <link>https://denizatmaca.com/post/20-static-site-giris/</link>
+      <pubDate>Sat, 28 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://denizatmaca.com/post/20-static-site-giris/</guid>
+      <description>Statik Site Nedir? Statik web siteleri veritabanına ihtiyaç duymayan, tamamen html dosyalarından oluşan sitelerdir.
+Jekyll, Hugo vs. Nedir? Yakın zamanda hayatımıza static site generator dediğimiz uygulamalar girdi. Bu uygulamalar markdown dilinde yazmış olduğumuz yazıları html dosyalarına çevirmek için birer araç aslında. Şu anda onlarcası bulunan uygulamaların ilki ve halen en popüleri Jekyll. Onu Hugo takip ediyor.
+Neden Statik Site Yapmak İsteyelim? Çünkü bu tür siteleri yapmak çok kolay ve çok hızlı.</description>
+    </item>
     
     <item>
       <title>Revell 1/144 Micro Wings Junkers Ju 87B Stuka Plastik Maket</title>
