@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
     <copyright>2019 - Copyleft - Tüm hakları serbesttir.</copyright>
-    <lastBuildDate>Sun, 29 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://denizatmaca.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>github</title>
       <link>https://denizatmaca.com/tags/github/</link>
-      <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://denizatmaca.com/tags/github/</guid>
       <description></description>
@@ -24,7 +24,7 @@
     <item>
       <title>hugo</title>
       <link>https://denizatmaca.com/tags/hugo/</link>
-      <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://denizatmaca.com/tags/hugo/</guid>
       <description></description>
@@ -33,7 +33,7 @@
     <item>
       <title>jekyll</title>
       <link>https://denizatmaca.com/tags/jekyll/</link>
-      <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://denizatmaca.com/tags/jekyll/</guid>
       <description></description>
@@ -42,9 +42,18 @@
     <item>
       <title>static site generator</title>
       <link>https://denizatmaca.com/tags/static-site-generator/</link>
-      <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://denizatmaca.com/tags/static-site-generator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>statik site</title>
+      <link>https://denizatmaca.com/tags/statik-site/</link>
+      <pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://denizatmaca.com/tags/statik-site/</guid>
       <description></description>
     </item>
     

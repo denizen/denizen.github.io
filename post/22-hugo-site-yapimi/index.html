@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Hugo ile Statik Site Yapımı - Deniz Atmaca</title>
+  <meta property="og:title" content="Hugo ile Statik Site Yapımı - Deniz Atmaca" />
+  <meta name="twitter:title" content="Hugo ile Statik Site Yapımı - Deniz Atmaca" />
+  <meta name="description" content="Hugo kullanarak lokal bilgisayarınızda statik site yapmak">
+  <meta property="og:description" content="Hugo kullanarak lokal bilgisayarınızda statik site yapmak">
+  <meta name="twitter:description" content="Hugo kullanarak lokal bilgisayarınızda statik site yapmak">
+  <meta name="author" content="Ben Deniz!"/>
+  <link rel='icon' type='image/x-icon' href="https://denizatmaca.com/images/favicon.ico" />
+  <meta property="og:site_name" content="Deniz Atmaca" />
+  <meta property="og:url" content="https://denizatmaca.com/post/22-hugo-site-yapimi/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.58.3" />
+
+  <link rel="stylesheet" href="/css/style.css" media="all" />
+  <link rel="stylesheet" href="/css/syntax.css" media="all" />
+  <link rel="stylesheet" href="/css/custom.css" media="all" />
+
+  <script src="/js/script.js"></script>
+  <script src="/js/custom.js"></script>
+  <script defer src="/js/fontawesome.js"></script>
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-navi">
+    <h1 class="site-title"><a href="/">Deniz Atmaca</a></h1>
+    <ul class="site-navi-items">
+      <li class="site-navi-item-categories"><a href="/categories/" title="Kategoriler">Kategoriler</a></li>
+      <li class="site-navi-item-tags"><a href="/tags/" title="Etiketler">Etiketler</a></li>
+      <li class="site-navi-item-archives"><a href="/archives/" title="Arşiv">Arşiv</a></li>
+      <li class="site-navi-item-about"><a href="/about/" title="Hakkımda">Hakkımda</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+  <div class="main" role="main">
+    <article class="article">
+      
+      
+      <h1 class="article-title">Hugo ile Statik Site Yapımı</h1>
+      
+      <hr class="article-title-bottom">
+      <ul class="article-meta">
+        <li class="article-meta-date"><time>12/30/2019</time></li>
+        <li class="article-meta-categories">
+          <a href="/categories/hugo/">
+            <i class="fas fa-folder"></i>
+            Hugo
+          </a>&nbsp;
+        </li>
+        <li class="article-meta-tags">
+          <a href="/tags/statik-site/">
+            <i class="fas fa-tag"></i>
+            statik site
+          </a>&nbsp;
+        </li>
+        <li class="article-meta-tags">
+          <a href="/tags/hugo/">
+            <i class="fas fa-tag"></i>
+            hugo
+          </a>&nbsp;
+        </li>
+        <li class="article-meta-tags">
+          <a href="/tags/jekyll/">
+            <i class="fas fa-tag"></i>
+            jekyll
+          </a>&nbsp;
+        </li>
+        <li class="article-meta-tags">
+          <a href="/tags/static-site-generator/">
+            <i class="fas fa-tag"></i>
+            static site generator
+          </a>&nbsp;
+        </li>
+        <li class="article-meta-tags">
+          <a href="/tags/github/">
+            <i class="fas fa-tag"></i>
+            github
+          </a>&nbsp;
+        </li>
+      </ul>
+      
+<aside class="toc">
+  
+</aside>
+      <p><a href="https://denizatmaca.com/post/21-hugo-yukleme/">Bir önceki</a> yazımızda Hugo uygulamasını Windows 10 bilgisayarımıza yüklemiştik. Şimdi ilk sitemizi yapacağız.</p>
+
+<p>Klavyeden <strong>Windows+R</strong> tuşlarına basıp çıkan kutuya <strong>cmd</strong> yazıp klavyeden Enter tuşuna basarak komut satırını çalıştırın.
+<center><img src="https://dl.dropboxusercontent.com/s/6nt688vqw3zcpi8/hugo-site-1.jpg?dl=0" alt="" /></center></p>
+
+<p>Konsol penceresini açmış olduk. Şimdi Hugo dizini altına gitmemiz gerek. Bunun için konsol satırına aşağıdaki komutu yazın.</p>
+
+<pre><code>cd C:\Hugo  
+</code></pre>
+
+<p>Artık ilk sitemizi yapmaya hazırız. Bunun için konsol satırına aşağıdaki komutu yazın ve Enter tuşuna basın.</p>
+
+<pre><code>hugo new site test
+</code></pre>
+
+<p><center><img src="https://dl.dropboxusercontent.com/s/9fiamatvo5nhjiz/hugo-site-2.jpg?dl=0" alt="" /></center>
+<strong>test</strong> burada bizim yaptığımız sitenin adı. Siz oraya istediğinizi yazabilirsiniz (Türkçe karakter kullanmayın). C dizinin altında bulunan Hugo klasörünün içine girerseniz otomatik olarak test diye yeni bir klasör yaratıldığını ve içinde çeşitli dosyaların olduğunu göreceksiniz. İşte bu dosyalar test adındaki yeni sitenizin dosyalarıdır.
+<center><img src="https://dl.dropboxusercontent.com/s/r15wajw808en8km/hugo-site-3.jpg?dl=0" alt="" /></center>
+Buradaki dosyaları kısaca özetlersek;</p>
+
+<ul>
+<li>content klasörü yazılarınızın bulunacağı klasördür.</li>
+<li>themes klasörü temanızı kopyalayacağınız klasördür.</li>
+<li>config.toml dosyası siteniz ile ilgili yapacağınız ayarları içeren dosyadır.</li>
+</ul>
+
+<p>Geri kalan klasör ve dosyalar ile işiniz olmayacak.</p>
+
+<p>Şimdi sitemizi yaptık fakat Hugo&rsquo;da varsayılan olarak herhangi bir tema yüklü gelmiyor. Bunun için <a href="https://themes.gohugo.io/">şu adrese</a> giderek Hugo için oluşturulmuş yüzlerce ücretsiz  tema arasından seçim yapıp kullanabiliriz. Bu örnekte <a href="https://themes.gohugo.io/hugo-theme-zzo/">Zzo</a> temasını seçtim.</p>
+
+<p>Herhangi bir temanın sayfasına girdiğinizde sizi Download, Demo ve Homepage butonları karşılıyor. Temayı indirip kullanmak için Download butonunu kullanmalısınız. Örnek bir demosunu görmek için Demo butonunu kullanabilirsiniz. Tema sayfalarının alt taraflarında ise tema ile ilgili dokümantasyon, yükleme yönergeleri vs. bulunmaktadır. Biz şimdi Download butonuna tıklayarak indirme sayfasına gidelim.
+<center><img src="https://dl.dropboxusercontent.com/s/tulob2n2ajik7nk/hugo-site-4.jpg?dl=0" alt="" /></center></p>
+
+<p>Temanın github sayfasına ulaştık. Temayı indirmek için sağ tarafta bulunan yeşil <strong>Clone or download</strong> butonuna tıklayın. Açılan küçük pencereden <strong>Download ZIP</strong> linkine tıklayın ve temanın zipli dosyasını bilgisayarınıza indirin.
+<center><img src="https://dl.dropboxusercontent.com/s/f9psjfsoyve5gns/hugo-site-5.jpg?dl=0" alt="" /></center></p>
+
+<p>İndirme tamamlandıktan sonra zipli dosyanın içerisindeki tema klasörünü C://Hugo/test/themes klasörünün altına kopyalayın. Klasörün içini değil, kendisini kopyalamanız gerekmektedir. hugo-theme-zzo-master olan tema klasörünün adını kolaylık olması için zzo olarak değiştirin.
+<center><img src="https://dl.dropboxusercontent.com/s/xynz90ds124xieu/hugo-site-6.jpg?dl=0" alt="" /></center></p>
+
+<p>Bu aşamada tema klasörümüzün içerisine girerek <strong>ExampleSite</strong> adında bir klasör olduğunu görebilirsiniz. Burası temamıza özel yazıların, ayarların, fotoğrafların olduğu dataları içermektedir. Klasörün içerisindeki tüm dosya ve klasörleri seçerek kopyalayın.
+<center><img src="https://dl.dropboxusercontent.com/s/yw07lgngr3g5g50/hugo-site-7.jpg?dl=0" alt="" /></center></p>
+
+<p><strong>test</strong> klasörüne geri dönün ve az önce kopyaladığımız dosyaları buraya yapıştırın.
+<center><img src="https://dl.dropboxusercontent.com/s/6cnnz6snilka1xu/hugo-site-8.jpg?dl=0" alt="" /></center></p>
+
+<p>Son olarak <strong>config</strong> klasörünün altındaki <strong>_default</strong> klasörünün altındaki tüm dosyaları seçerek ana test klasörüne kopyalayın.
+<strong>Hedefte zaten &ldquo;config.toml&rdquo; adında bir dosyası var</strong> uyarısına <strong>Hedefteki dosyayı değiştir</strong> seçeneğini seçip kopyalama işlemini bitirin.
+<center><img src="https://dl.dropboxusercontent.com/s/aue0wcryoj6wsrt/hugo-site-9.jpg?dl=0" alt="" /></center></p>
+
+<p>Artık sitemizi çalıştırabiliriz. Bunun için cmd komut satırına geri dönüp aşağıdaki komutu yazmanız yeterli.</p>
+
+<pre><code>hugo server
+</code></pre>
+
+<p><center><img src="https://dl.dropboxusercontent.com/s/6hwmndgzqll35o0/hugo-site-10.jpg?dl=0" alt="" /></center></p>
+
+<p><strong>hugo server</strong> komutu sitemizi lokal bilgisayarımızda çalıştırabilmemizi ve yaptıklarımızın sonucunu görebilmemizi sağlar. Bir nevi bilgisayarımızı geçici olarak sunucuya dönüştürür. Artık tarayıcınızın adres satırına <strong>localhost:1313</strong> yazıp Enter tuşuna basarsanız yapmış olduğunuz Hugo sitenizi görebilirsiniz. Unutmayın, şu aşamada siteniz sizin bilgisayarınızda çalışmaktadır. Başkaları henüz sitenizi göremiyorlar. İleride o da olacak.
+<center><img src="https://dl.dropboxusercontent.com/s/194le56g3p2ex1j/hugo-site-11.jpg?dl=0" alt="" /></center></p>
+
+<p>Bu temada ihtiyacımız olmadı ama siz başka tema kullanırsanız dikkat etmeniz gereken bir tane detay var. Sitenizin ana dizininde bulunan <strong>config.toml</strong> dosyasında yer alan <strong>theme = &ldquo;tema adı&rdquo;</strong> satırında tırnak içerisinde yazan tema adınızın, tema klasör adı ile birebir aynı olması gerekmekte. Hatırlarsanız zipli tema klasörünü kopyaladıktan sonra adını zzo olarak değiştirmiştik. Bunu yapmasaydık sitemizi açtığımızda boş bir sayfa görecektik.
+<center><img src="https://dl.dropboxusercontent.com/s/2jpdu4rlv61uxx6/hugo-site-12.jpg?dl=0" alt="" /></center>
+Bu arada benim notepad yerine <a href="https://notepad-plus-plus.org/">notepad++</a> kullandığımı fark etmişsinizdir. Size de tavsiye ederim.</p>
+
+<p>Artık sizin de bir siteniz var. Tüm bu aşamaları biliyor olsanız 2 dakikadan kısa sürede Hugo sitenizi bilgisayarınızda çalıştırmanız mümkün. Bundan sonra sitenizin içeriğini düzenleme aşamaları. <strong>content</strong> klasörünün altına girip tüm sayfaları düzenleyebilirsiniz. Hugo sayfaları markdown dilini desteklemektedir. Bunun için herhangi bir online markdown editor kullanarak normal ofis programı kullanır gibi sayfalarınızı güncelleyebilirsiniz. Online markdown editor olarak <a href="https://stackedit.io/">şu uygulamayı</a> önerebilirim.</p>
+
+<p><strong>config.toml</strong> sayfasından siteniz ile ilgili tüm ayarları değiştirebilirsiniz (<strong>disqus</strong> hesabınızı veya <strong>google analytics</strong> hesabınızı buradan girebilirsiniz örneğin. Veya temanız destekliyor ise sosyal medya hesaplarınızı buradan ekleyebilirsiniz). İngilizceniz varsa temanın kendi sayfasından dokümantasyonu okursanız tema ile ilgili tüm bilgilere ulaşabilirsiniz.</p>
+
+<p>Son olarak Hugo sayfalarınızda yaptığınız değişiklikler tarayıcınızda gerçek zamanlı olarak gösterilmektedir. Yani sitenizin bir sayfasını güncellediniz diyelim, localhost sayfasını yenilemeden yaptığınız değişikliği görebilirsiniz. hugo server komutunu kapatmak isterseniz cmd komut satırında *<strong>ctrl+c</strong> tuşlarına aynı anda basabilirsiniz. Bunu yaparsanız hugo server yazarak çalıştırdığınız server durdurulur.</p>
+
+    </article>
+
+    
+
+    <div class="disqus-comments">
+      <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "denizatmaca" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>
+
+    <ul class="pager article-pager">
+      <li class="pager-newer pager-noitem">&lt; Sonraki Yazı</li>
+      <li class="pager-older">
+        <a href="/post/21-hugo-yukleme/" data-toggle="tooltip" data-placement="top" title="Bilgisayarınıza Hugo Yüklemek">Önceki Yazı &gt;</a>
+      </li>
+    </ul>
+  </div>
+
+
+<div class="site-footer">
+  <div class="copyright">2019 - Copyleft - Tüm hakları serbesttir.</div>
+  <ul class="site-footer-items">
+  </ul>
+  
+</div>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-32203692-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+</body>
+</html>

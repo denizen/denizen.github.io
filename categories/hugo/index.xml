@@ -7,10 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
     <copyright>2019 - Copyleft - Tüm hakları serbesttir.</copyright>
-    <lastBuildDate>Sun, 29 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://denizatmaca.com/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hugo ile Statik Site Yapımı</title>
+      <link>https://denizatmaca.com/post/22-hugo-site-yapimi/</link>
+      <pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://denizatmaca.com/post/22-hugo-site-yapimi/</guid>
+      <description>Bir önceki yazımızda Hugo uygulamasını Windows 10 bilgisayarımıza yüklemiştik. Şimdi ilk sitemizi yapacağız.
+Klavyeden Windows+R tuşlarına basıp çıkan kutuya cmd yazıp klavyeden Enter tuşuna basarak komut satırını çalıştırın. 
+Konsol penceresini açmış olduk. Şimdi Hugo dizini altına gitmemiz gerek. Bunun için konsol satırına aşağıdaki komutu yazın.
+cd C:\Hugo  Artık ilk sitemizi yapmaya hazırız. Bunun için konsol satırına aşağıdaki komutu yazın ve Enter tuşuna basın.
+hugo new site test   test burada bizim yaptığımız sitenin adı.</description>
+    </item>
     
     <item>
       <title>Bilgisayarınıza Hugo Yüklemek</title>
