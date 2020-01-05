@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Deniz Atmaca</title>
@@ -18,7 +18,11 @@
       <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://denizatmaca.com/post/24-1984-george-orwell/</guid>
-      <description>Savaş, barıştırÖzgürlük, tutsaklıktırBilgisizlik, güçtür2020 yılının ilk günlerinde Eric Arthur Blair&#39;in veya bilinen adı ile George Orwell&#39;in 1949 yılında yazdığı ve 1984 yılını anlatan 1984 adlı romanını okumak ilginç olabilir.
+      <description>Savaş, barıştır
+Özgürlük, tutsaklıktır
+Bilgisizlik, güçtür
+2020 yılının ilk günlerinde Eric Arthur Blair&amp;rsquo;in veya bilinen adı ile George Orwell&amp;rsquo;in 1949 yılında yazdığı ve 1984 yılını anlatan 1984 adlı romanını okumak ilginç olabilir.
+
 1984 var olmayan ve umarız hiçbir zaman var olmayacak bir dünyayı anlatan çarpıcı bir roman. Dünya birbirleri ile savaş halinde olan 3 büyük süper devlete ayrılmıştır. Bunlar Okyanusya, Avrasya ve Doğu Asya devletleridir. Hikayemiz Okyanusya devletinde yaşayan Winston Smith karakterini konu almaktadır.</description>
     </item>
     
@@ -28,10 +32,10 @@
       <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://denizatmaca.com/post/23-hugo-github-yayinlama/</guid>
-      <description>Önceki yazılarımızda Hugo aracını tanımıştık, bilgisayarımıza yüklemiştik ve ilk sitemizi yapmıştık. Şimdi ise oluşturduğumuz siteyi github&#39;a gönderip ücretsiz olarak host edeceğiz.
+      <description>Önceki yazılarımızda Hugo aracını tanımıştık, bilgisayarımıza yüklemiştik ve ilk sitemizi yapmıştık. Şimdi ise oluşturduğumuz siteyi github&amp;rsquo;a gönderip ücretsiz olarak host edeceğiz.
 Bunun için öncelikle github.com sitesinden hesap açmamız gerekmekte. Daha sonra yeşil &amp;ldquo;New&amp;rdquo; butonuna basarak yeni repository yaratacağız.
-Karşımıza aşağıdaki gibi ekran çıkıyor. Burada repository adımızı yazıyoruz. Ben bu örnekte test yazdım, siz ne isterseniz onu yazabilirsiniz. Kalan ayarları değiştirmenize gerek yok. Bu şekilde &amp;ldquo;Create Repository&amp;rdquo; butonuna basarak kaydedebilirsiniz.
-Şu aşamada site adresimizi aldık.</description>
+
+Karşımıza aşağıdaki gibi ekran çıkıyor. Burada repository adımızı yazıyoruz. Ben bu örnekte test yazdım, siz ne isterseniz onu yazabilirsiniz. Kalan ayarları değiştirmenize gerek yok. Bu şekilde &amp;ldquo;Create Repository&amp;rdquo; butonuna basarak kaydedebilirsiniz.</description>
     </item>
     
     <item>
@@ -41,10 +45,10 @@ Karşımıza aşağıdaki gibi ekran çıkıyor. Burada repository adımızı ya
       
       <guid>https://denizatmaca.com/post/22-hugo-site-yapimi/</guid>
       <description>Bir önceki yazımızda Hugo uygulamasını Windows 10 bilgisayarımıza yüklemiştik. Şimdi ilk sitemizi yapacağız.
-Klavyeden Windows+R tuşlarına basıp çıkan kutuya cmd yazıp klavyeden Enter tuşuna basarak komut satırını çalıştırın.
+Klavyeden Windows+R tuşlarına basıp çıkan kutuya cmd yazıp klavyeden Enter tuşuna basarak komut satırını çalıştırın. 
 Konsol penceresini açmış olduk. Şimdi Hugo dizini altına gitmemiz gerek. Bunun için konsol satırına aşağıdaki komutu yazın.
-cd C:\Hugo	 Artık ilk sitemizi yapmaya hazırız. Bunun için konsol satırına aşağıdaki komutu yazın ve Enter tuşuna basın.
-hugo new site test   content klasörü yazılarınızın bulunacağı klasördür.</description>
+cd C:\Hugo  Artık ilk sitemizi yapmaya hazırız. Bunun için konsol satırına aşağıdaki komutu yazın ve Enter tuşuna basın.
+hugo new site test   test burada bizim yaptığımız sitenin adı.</description>
     </item>
     
     <item>
@@ -53,7 +57,7 @@ hugo new site test   content klasörü yazılarınızın bulunacağı klasördü
       <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://denizatmaca.com/post/21-hugo-yukleme/</guid>
-      <description>Bir önceki yazımda static site generator&#39;lardan bahsetmiştim. Hugo nedir diye merak ediyorsanız o yazıya göz atabilirsiniz.
+      <description>Bir önceki yazımda static site generator&amp;rsquo;lardan bahsetmiştim. Hugo nedir diye merak ediyorsanız o yazıya göz atabilirsiniz.
 Bu yazıda ise Windows bilgisayarınıza Hugo nasıl yüklenir bunu öğreneceğiz.
 Öncelikle şuradaki adresi ziyaret edip, sayfanın altında yer alan versiyonlardan işletim sisteminize uygun olanı bilgisayarınıza indirin. C dizinin altına Hugo adında yeni bir klasör oluşturun. Onun altına da bin adında yeni bir klasör oluşturun. Bilgisayarınıza indirdiğiniz zip dosyasının içerisindeki tüm dosyaları bin klasörünün altına kopyalayın.</description>
     </item>
@@ -105,7 +109,7 @@ Calliope tankı bir başka adı ile T34 tankı ikinci dünya savaşında ABD tar
       <pubDate>Sun, 09 Nov 2014 00:00:00 +0000</pubDate>
       
       <guid>https://denizatmaca.com/post/12-revell-boeing-747/</guid>
-      <description>Merhaba. Bugünkü maketimiz Revell’in jumbo jeti, Boeing 747-200 Air Canada modeli. Maketin ölçeği 1/390, zorluk seviyesi Revell’in 1-5 aralığına göre 3. Fiyatı 15 tl civarında, bitmiş halinin kanat genişliği 156 mm, uzunluğu 183 mm. 60 adet parçadan oluşuyor, küçük, yapımı kolay ve zevkli, ucuz bir maket ile karşınızdayım.
+      <description>Merhaba. Bugünkü maketimiz Revell’in jumbo jeti, Boeing 747-200 Air Canada modeli. Maketin ölçeği 1&amp;frasl;390, zorluk seviyesi Revell’in 1-5 aralığına göre 3. Fiyatı 15 tl civarında, bitmiş halinin kanat genişliği 156 mm, uzunluğu 183 mm. 60 adet parçadan oluşuyor, küçük, yapımı kolay ve zevkli, ucuz bir maket ile karşınızdayım.
 Maketten bahsedecek olursam, Boeing 747-200 bugün gökyüzünde görebileceğiniz bir uçak değil, yapımı 1966 yılına dayanıyor, ilk teslimi KLM firmasına 1969 yılında. Son teslimi ise 1990 yılında.</description>
     </item>
     
@@ -166,7 +170,7 @@ Pist alanı oldukça güzel dizayn edilmişti. Her üniversiteye bir çadır ver
       <pubDate>Thu, 26 Sep 2013 00:00:00 +0000</pubDate>
       
       <guid>https://denizatmaca.com/post/2-italya-turu/</guid>
-      <description>Eylül ayında yapmış olduğumuz otobüs ile 10 günlük İtalya-Yunanistan turunun incelemesi ile karşınızdayım. Öncelikle tur ile ilgili birkaç bilgi vereyim. İstanbul&#39;dan otobüse biniyorsunuz ve 10 gün boyunca aynı otobüs ile seyahat ediyorsunuz. Yunanistan üzerinden gemi ile İtalya&#39;ya geçiyorsunuz. Toplam 6 gün otelde konaklıyor, kalan günlerde gece otobüs ile şehir değiştiriyorsunuz. Dolayısıyla 4 gece otobüste uyuyorsunuz.
+      <description>Eylül ayında yapmış olduğumuz otobüs ile 10 günlük İtalya-Yunanistan turunun incelemesi ile karşınızdayım. Öncelikle tur ile ilgili birkaç bilgi vereyim. İstanbul&amp;rsquo;dan otobüse biniyorsunuz ve 10 gün boyunca aynı otobüs ile seyahat ediyorsunuz. Yunanistan üzerinden gemi ile İtalya&amp;rsquo;ya geçiyorsunuz. Toplam 6 gün otelde konaklıyor, kalan günlerde gece otobüs ile şehir değiştiriyorsunuz. Dolayısıyla 4 gece otobüste uyuyorsunuz.
 Rehber Ayhan Kalyan Rehberimiz Ayhan Kalyan’dı. Kendisinin Facebook sayfası şurada. Ayhan Kalyan işini çok iyi yapan ve iyi bir tatil geçirmeniz için sizden daha çok çabalayan birisi.</description>
     </item>
     
@@ -176,8 +180,8 @@ Rehber Ayhan Kalyan Rehberimiz Ayhan Kalyan’dı. Kendisinin Facebook sayfası 
       <pubDate>Fri, 30 Aug 2013 00:00:00 +0000</pubDate>
       
       <guid>https://denizatmaca.com/post/7-ege-turu/</guid>
-      <description>İstanbul&#39;dan yola çıkıp Ege&#39;nin muhteşem kıyılarında kamp yaptıktan sonra Olimpos&#39;ta sonlandırdığımız 10 günlük muhteşem kamp tatilimizin yazısı.
-Altınoluk İlk gecemiz yolda geçti. Sabahın erken saalerinde Balıkesir Altınoluk ilçesine varmıştık. Sabah kahvaltı için durduğumuz yerde çalışan garson kamp yapmak için Sır Motel&#39;i önerdi. İşletmenin hem kamp alanı var hem de motel binası. Kamp alanında hazır çadırlar var, onlarda kalmak isterseniz biraz daha fazla para istiyorlar. Biz kendi çadırımızı kurduğumuzdan günlük 35 tl ödedik.</description>
+      <description>İstanbul&amp;rsquo;dan yola çıkıp Ege&amp;rsquo;nin muhteşem kıyılarında kamp yaptıktan sonra Olimpos&amp;rsquo;ta sonlandırdığımız 10 günlük muhteşem kamp tatilimizin yazısı.
+Altınoluk İlk gecemiz yolda geçti. Sabahın erken saalerinde Balıkesir Altınoluk ilçesine varmıştık. Sabah kahvaltı için durduğumuz yerde çalışan garson kamp yapmak için Sır Motel&amp;rsquo;i önerdi. İşletmenin hem kamp alanı var hem de motel binası. Kamp alanında hazır çadırlar var, onlarda kalmak isterseniz biraz daha fazla para istiyorlar. Biz kendi çadırımızı kurduğumuzdan günlük 35 tl ödedik.</description>
     </item>
     
     <item>
@@ -197,8 +201,7 @@ DIŞ GÖVDE  İkinci el makine alırken öncelikle gövdenin kozmetiğine bakar�
       
       <guid>https://denizatmaca.com/post/6-chdk-menu/</guid>
       <description>CHDK’yı indirdik, kurduk. Sıra geldi kullanmaya.
-ARAYÜZ CHDK’nın çok ilkel bir arayüzü var. İşini yapıyor ama bence pek kullanışlı olduğu söylenemez. Birçok Canon kompakt makinada bir adet hiçbir işe yaramayan, yazdırma tuşu bulunuyor. İşte bu tuş genelde CHDK’yı aktif ya da pasif yapmak için kullandığımız tuş oluyor.
-Tüm CHDK ayarlarını işte bu menüden yapıyoruz. Bu başlıkların her birinin altında özellikleri var. Şimdi kısaca menüdeki başlıklar ne işe yarıyor onlara göz atalım.</description>
+ARAYÜZ CHDK’nın çok ilkel bir arayüzü var. İşini yapıyor ama bence pek kullanışlı olduğu söylenemez. Birçok Canon kompakt makinada bir adet hiçbir işe yaramayan, yazdırma tuşu bulunuyor. İşte bu tuş genelde CHDK’yı aktif ya da pasif yapmak için kullandığımız tuş oluyor.  Görselde görünen, Print tuşuna basarak CHDK menülerini aktif hale getirebilirsiniz. Normal Canon menülerinde gezinmek için yine aynı tuşa basarak pasif hale getirmeniz gerekmektedir.</description>
     </item>
     
     <item>

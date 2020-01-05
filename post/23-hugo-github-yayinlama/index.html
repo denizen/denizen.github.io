@@ -15,7 +15,7 @@
   <meta property="og:url" content="https://denizatmaca.com/post/23-hugo-github-yayinlama/" />
   <meta property="og:type" content="article" />
   <meta name="twitter:card" content="summary" />
-  <meta name="generator" content="Hugo 0.62.1" />
+  <meta name="generator" content="Hugo 0.58.3" />
 
   <link rel="stylesheet" href="/css/style.css" media="all" />
   <link rel="stylesheet" href="/css/syntax.css" media="all" />
@@ -89,29 +89,51 @@
       </ul>
       
 <aside class="toc">
-  <nav id="TableOfContents"></nav>
+  
 </aside>
-      <p>Önceki yazılarımızda Hugo aracını <a href="https://denizatmaca.com/post/20-static-site-giris/">tanımıştık</a>, bilgisayarımıza <a href="https://denizatmaca.com/post/21-hugo-yukleme/">yüklemiştik</a> ve ilk sitemizi <a href="https://denizatmaca.com/post/22-hugo-site-yapimi/">yapmıştık</a>. Şimdi ise oluşturduğumuz siteyi github'a gönderip ücretsiz olarak host edeceğiz.</p>
+      <p>Önceki yazılarımızda Hugo aracını <a href="https://denizatmaca.com/post/20-static-site-giris/">tanımıştık</a>, bilgisayarımıza <a href="https://denizatmaca.com/post/21-hugo-yukleme/">yüklemiştik</a> ve ilk sitemizi <a href="https://denizatmaca.com/post/22-hugo-site-yapimi/">yapmıştık</a>. Şimdi ise oluşturduğumuz siteyi github&rsquo;a gönderip ücretsiz olarak host edeceğiz.</p>
+
 <p>Bunun için öncelikle <a href="https://github.com/">github.com</a> sitesinden hesap açmamız gerekmekte. Daha sonra yeşil &ldquo;New&rdquo; butonuna basarak yeni repository yaratacağız.</p>
-<!-- raw HTML omitted -->
+
+<p><center><img src="https://dl.dropboxusercontent.com/s/5q9h6cvz1cyopy1/hugo-yayin-1.png?dl=0" alt="" /></center></p>
+
 <p>Karşımıza aşağıdaki gibi ekran çıkıyor. Burada repository adımızı yazıyoruz. Ben bu örnekte <strong>test</strong> yazdım, siz ne isterseniz onu yazabilirsiniz. Kalan ayarları değiştirmenize gerek yok. Bu şekilde &ldquo;Create Repository&rdquo; butonuna basarak kaydedebilirsiniz.</p>
-<!-- raw HTML omitted -->
-<p>Şu aşamada site adresimizi aldık. github'a üye olurken belirlediğiniz bir kullanıcı adı var. Sitemizin adı https://githubkullanıcıadı.github.io/test şeklinde olacak. Bunu hemen hugo sitemize söyleyelim. Bir önceki yazımızda yarattığımız <strong>test</strong> sitemizin config.toml dosyasını açalım. En üst satırda yer alan &ldquo;<strong>baseURL</strong>&rdquo; bölümüne aşağıdaki adresi girin (Yani sitenizin domain adresinizi). Burada önemli olan bir detay, test yazdıktan sonra mutlaka <strong>/</strong> ile kapatın.</p>
-<!-- raw HTML omitted -->
-<p>Sitemizi zaten yapmıştık. Domain adresini de girmiş olduk. Artık statik dosyalarımızı alabiliriz. Bunun için Windows komut satırını çalıştıralım. cd komutu ile test klasörümüze gidelim. Vereceğimiz komut <strong>hugo</strong> komutu. Bu komut yarattığımız sitemizi derleyecek ve bize html sayfalarımızı verecek. Test site klasörünüze bakarsanız orada daha önce olmayan, public adında bir klasör olduğunu görürsünüz. Bu public klasörünün altındaki dosyalar sizin statik site dosyalarınız. Bu dosyaları birazdan github'a gönderip sitemizi dünyaya açacağız.</p>
-<!-- raw HTML omitted -->
+
+<p><center><img src="https://dl.dropboxusercontent.com/s/nsfbyiirq2wfolh/hugo-yayin-2.png?dl=0" alt="" /></center></p>
+
+<p>Şu aşamada site adresimizi aldık. github&rsquo;a üye olurken belirlediğiniz bir kullanıcı adı var. Sitemizin adı <a href="https://githubkullanıcıadı.github.io/test">https://githubkullanıcıadı.github.io/test</a> şeklinde olacak. Bunu hemen hugo sitemize söyleyelim. Bir önceki yazımızda yarattığımız <strong>test</strong> sitemizin config.toml dosyasını açalım. En üst satırda yer alan &ldquo;<strong>baseURL</strong>&rdquo; bölümüne aşağıdaki adresi girin (Yani sitenizin domain adresinizi). Burada önemli olan bir detay, test yazdıktan sonra mutlaka <strong>/</strong> ile kapatın.</p>
+
+<p><center><img src="https://dl.dropboxusercontent.com/s/ta90zmqtqciychk/hugo-yayin-5.png?dl=0" alt="" /></center><br>
+<center><img src="https://dl.dropboxusercontent.com/s/duppw3kzo6cnztu/hugo-yayin-6.png?dl=0" alt="" /></center></p>
+
+<p>Sitemizi zaten yapmıştık. Domain adresini de girmiş olduk. Artık statik dosyalarımızı alabiliriz. Bunun için Windows komut satırını çalıştıralım. cd komutu ile test klasörümüze gidelim. Vereceğimiz komut <strong>hugo</strong> komutu. Bu komut yarattığımız sitemizi derleyecek ve bize html sayfalarımızı verecek. Test site klasörünüze bakarsanız orada daha önce olmayan, public adında bir klasör olduğunu görürsünüz. Bu public klasörünün altındaki dosyalar sizin statik site dosyalarınız. Bu dosyaları birazdan github&rsquo;a gönderip sitemizi dünyaya açacağız.</p>
+
+<p><center><img src="https://dl.dropboxusercontent.com/s/67x7q2ss00zop5o/hugo-yayin-7.png?dl=0" alt="" /></center></p>
+
 <p>Şimdi bilgisayarımıza Github Desktop kuracağız. <a href="https://desktop.github.com/">Şuradaki</a> adrese girerek bilgisayarınıza Github Desktop programını indirip kurulumu gerçekleştirin. Kurulum işlemi tamamlandıktan sonra github kullanıcı adı ve şifrenizi girerek giriş yapın.</p>
-<p>Şimdi oluşturduğumuz &ldquo;test&rdquo; repository'sini bilgisayarımıza klonlayacağız. Bunun için aşağıdaki görselde gördüğünüz gibi &ldquo;Current Repository&rdquo; bölümüne tıklayıp açılan bölümden &ldquo;Clone Repository&rdquo; seçeneğini seçin.</p>
-<!-- raw HTML omitted -->
-<p>Çıkan ekrandan test repository'nizi seçin ve &ldquo;Clone&rdquo; butonuna tıklayın. Varsayılan olarak masaüstünüze &ldquo;test&rdquo; adında boş bir klasör oluşturulacak.</p>
+
+<p>Şimdi oluşturduğumuz &ldquo;test&rdquo; repository&rsquo;sini bilgisayarımıza klonlayacağız. Bunun için aşağıdaki görselde gördüğünüz gibi &ldquo;Current Repository&rdquo; bölümüne tıklayıp açılan bölümden &ldquo;Clone Repository&rdquo; seçeneğini seçin.</p>
+
+<p><center><img src="https://dl.dropboxusercontent.com/s/0ee4o5tyzg18ug1/hugo-yayin-4.png?dl=0" alt="" /></center></p>
+
+<p>Çıkan ekrandan test repository&rsquo;nizi seçin ve &ldquo;Clone&rdquo; butonuna tıklayın. Varsayılan olarak masaüstünüze &ldquo;test&rdquo; adında boş bir klasör oluşturulacak.</p>
+
 <p>Şimdi public klasörünün altındaki tüm dosyaları seçin ve kopyalayın, masaüstündeki test klasörünün altına yapıştırın.</p>
+
 <p>Github desktop programına döndüğünüzdeki aşağıdaki gibi bir ekran ile karşılaşacaksınız. Önce &ldquo;ilk yayin&rdquo; yazan bölüme bir başlık yazın. Daha sonra &ldquo;Commit to master&rdquo; butonuna basın ve son olarak sağ tarafta &ldquo;Publish branch&rdquo; butonuna basın. Bu aşamaları sitenizi güncellerken de kullanacaksınız.</p>
-<!-- raw HTML omitted -->
-<p>Şimdi biraz bekleyeceğiz. Sitemizin dosyaları github sunucularına upload oluyor. İşlem bittikten sonra github.com'a dönüp repository sayfamızı açalım. En üstte yer alan sekmelerden en sağdaki &ldquo;Settings&rdquo; sekmesine tıklayın. Alt tarafta &ldquo;Source&rdquo; bölümünü &ldquo;Master Branch&rdquo; olarak değiştirin.</p>
-<!-- raw HTML omitted -->
-<p>Hepsi bu kadar. Artık https://githubkullanıcıadı.github.io/test adresinde siteniz tüm dünyaya açık olarak yayınlanmış durumda. Sayfanız hemen gelmeyebilir, birkaç dakika beklemeniz gerekebilir. Bir de githubkullancıadı bölümüne, github'a üye olurken belirlediğiniz kullanıcı adınızı yazacaksınız elbette.</p>
+
+<p><center><img src="https://dl.dropboxusercontent.com/s/qz7bsf7b59ox58z/hugo-yayin-8.png?dl=0" alt="" /></center></p>
+
+<p>Şimdi biraz bekleyeceğiz. Sitemizin dosyaları github sunucularına upload oluyor. İşlem bittikten sonra github.com&rsquo;a dönüp repository sayfamızı açalım. En üstte yer alan sekmelerden en sağdaki &ldquo;Settings&rdquo; sekmesine tıklayın. Alt tarafta &ldquo;Source&rdquo; bölümünü &ldquo;Master Branch&rdquo; olarak değiştirin.</p>
+
+<p><center><img src="https://dl.dropboxusercontent.com/s/md7bslv55l13rv1/hugo-yayin-3.png?dl=0" alt="" /></center><br>
+<center><img src="https://dl.dropboxusercontent.com/s/zoeodg064whk0ga/hugo-yayin-9.png?dl=0" alt="" /></center></p>
+
+<p>Hepsi bu kadar. Artık <a href="https://githubkullanıcıadı.github.io/test">https://githubkullanıcıadı.github.io/test</a> adresinde siteniz tüm dünyaya açık olarak yayınlanmış durumda. Sayfanız hemen gelmeyebilir, birkaç dakika beklemeniz gerekebilir. Bir de githubkullancıadı bölümüne, github&rsquo;a üye olurken belirlediğiniz kullanıcı adınızı yazacaksınız elbette.</p>
+
 <p>Sitenizi ileride güncellemek istediğinizde aynı adımları tekrarlayacaksınız. Burada tek dikkat etmeniz gereken komut satırında <strong>hugo</strong> komutunu çalıştırmadan önce var olan public klasörünü silmeniz. Bunu yapmazsanız eski ve yeni versiyonlar çakışabilir. public klasörünü silin, hugo komutunu çalıştırın. Yeni oluşturulacak public klasörünün altındaki dosyaları, masaüstünüzdeki test klasörünün içine kopyalayın. Yeni dosyaları eskilerinin üzerine yazın ve Github Desktop uygulamasını açıp yeni versiyonunuzu push edin. Hepsi bu kadar. Her seferinde aynı aşamaları gerçekleştireceksiniz ve alıştıktan sonra aslında bunun ne kadar kolay olduğunu fark edeceksiniz.</p>
-<p>Bir sonraki yazımda github'a custom domainimizi nasıl ekleyeceğimizi anlatacağım.</p>
+
+<p>Bir sonraki yazımda github&rsquo;a custom domainimizi nasıl ekleyeceğimizi anlatacağım.</p>
 
     </article>
 
