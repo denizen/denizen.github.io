@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Deniz Atmaca</title>
@@ -7,17 +7,98 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
     <copyright>2019 - Copyleft - Tüm hakları serbesttir.</copyright>
-    <lastBuildDate>Mon, 30 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://denizatmaca.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>1984</title>
+      <link>https://denizatmaca.com/tags/1984/</link>
+      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://denizatmaca.com/tags/1984/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>distopya</title>
+      <link>https://denizatmaca.com/tags/distopya/</link>
+      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://denizatmaca.com/tags/distopya/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>eric arthur blair</title>
+      <link>https://denizatmaca.com/tags/eric-arthur-blair/</link>
+      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://denizatmaca.com/tags/eric-arthur-blair/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>george orwell</title>
+      <link>https://denizatmaca.com/tags/george-orwell/</link>
+      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://denizatmaca.com/tags/george-orwell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>github</title>
       <link>https://denizatmaca.com/tags/github/</link>
-      <pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://denizatmaca.com/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hosting</title>
+      <link>https://denizatmaca.com/tags/hosting/</link>
+      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://denizatmaca.com/tags/hosting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jekyll</title>
+      <link>https://denizatmaca.com/tags/jekyll/</link>
+      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://denizatmaca.com/tags/jekyll/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>roman</title>
+      <link>https://denizatmaca.com/tags/roman/</link>
+      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://denizatmaca.com/tags/roman/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>static site generator</title>
+      <link>https://denizatmaca.com/tags/static-site-generator/</link>
+      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://denizatmaca.com/tags/static-site-generator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>statik site</title>
+      <link>https://denizatmaca.com/tags/statik-site/</link>
+      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://denizatmaca.com/tags/statik-site/</guid>
       <description></description>
     </item>
     
@@ -27,33 +108,6 @@
       <pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://denizatmaca.com/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>jekyll</title>
-      <link>https://denizatmaca.com/tags/jekyll/</link>
-      <pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://denizatmaca.com/tags/jekyll/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>static site generator</title>
-      <link>https://denizatmaca.com/tags/static-site-generator/</link>
-      <pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://denizatmaca.com/tags/static-site-generator/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>statik site</title>
-      <link>https://denizatmaca.com/tags/statik-site/</link>
-      <pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://denizatmaca.com/tags/statik-site/</guid>
       <description></description>
     </item>
     

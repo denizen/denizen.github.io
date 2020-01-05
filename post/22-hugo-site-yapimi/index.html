@@ -15,7 +15,7 @@
   <meta property="og:url" content="https://denizatmaca.com/post/22-hugo-site-yapimi/" />
   <meta property="og:type" content="article" />
   <meta name="twitter:card" content="summary" />
-  <meta name="generator" content="Hugo 0.58.3" />
+  <meta name="generator" content="Hugo 0.62.1" />
 
   <link rel="stylesheet" href="/css/style.css" media="all" />
   <link rel="stylesheet" href="/css/syntax.css" media="all" />
@@ -89,75 +89,48 @@
       </ul>
       
 <aside class="toc">
-  
+  <nav id="TableOfContents"></nav>
 </aside>
       <p><a href="https://denizatmaca.com/post/21-hugo-yukleme/">Bir önceki</a> yazımızda Hugo uygulamasını Windows 10 bilgisayarımıza yüklemiştik. Şimdi ilk sitemizi yapacağız.</p>
-
-<p>Klavyeden <strong>Windows+R</strong> tuşlarına basıp çıkan kutuya <strong>cmd</strong> yazıp klavyeden Enter tuşuna basarak komut satırını çalıştırın.
-<center><img src="https://dl.dropboxusercontent.com/s/6nt688vqw3zcpi8/hugo-site-1.jpg?dl=0" alt="" /></center></p>
-
+<p>Klavyeden <strong>Windows+R</strong> tuşlarına basıp çıkan kutuya <strong>cmd</strong> yazıp klavyeden Enter tuşuna basarak komut satırını çalıştırın.</p>
+<!-- raw HTML omitted -->
 <p>Konsol penceresini açmış olduk. Şimdi Hugo dizini altına gitmemiz gerek. Bunun için konsol satırına aşağıdaki komutu yazın.</p>
-
-<pre><code>cd C:\Hugo  
+<pre><code>cd C:\Hugo	
 </code></pre>
-
 <p>Artık ilk sitemizi yapmaya hazırız. Bunun için konsol satırına aşağıdaki komutu yazın ve Enter tuşuna basın.</p>
-
 <pre><code>hugo new site test
 </code></pre>
-
-<p><center><img src="https://dl.dropboxusercontent.com/s/9fiamatvo5nhjiz/hugo-site-2.jpg?dl=0" alt="" /></center>
-<strong>test</strong> burada bizim yaptığımız sitenin adı. Siz oraya istediğinizi yazabilirsiniz (Türkçe karakter kullanmayın). C dizinin altında bulunan Hugo klasörünün içine girerseniz otomatik olarak test diye yeni bir klasör yaratıldığını ve içinde çeşitli dosyaların olduğunu göreceksiniz. İşte bu dosyalar test adındaki yeni sitenizin dosyalarıdır.
-<center><img src="https://dl.dropboxusercontent.com/s/r15wajw808en8km/hugo-site-3.jpg?dl=0" alt="" /></center>
-Buradaki dosyaları kısaca özetlersek;</p>
-
+<!-- raw HTML omitted -->
 <ul>
 <li>content klasörü yazılarınızın bulunacağı klasördür.</li>
 <li>themes klasörü temanızı kopyalayacağınız klasördür.</li>
 <li>config.toml dosyası siteniz ile ilgili yapacağınız ayarları içeren dosyadır.</li>
 </ul>
-
 <p>Geri kalan klasör ve dosyalar ile işiniz olmayacak.</p>
-
-<p>Şimdi sitemizi yaptık fakat Hugo&rsquo;da varsayılan olarak herhangi bir tema yüklü gelmiyor. Bunun için <a href="https://themes.gohugo.io/">şu adrese</a> giderek Hugo için oluşturulmuş yüzlerce ücretsiz  tema arasından seçim yapıp kullanabiliriz. Bu örnekte <a href="https://themes.gohugo.io/hugo-theme-zzo/">Zzo</a> temasını seçtim.</p>
-
-<p>Herhangi bir temanın sayfasına girdiğinizde sizi Download, Demo ve Homepage butonları karşılıyor. Temayı indirip kullanmak için Download butonunu kullanmalısınız. Örnek bir demosunu görmek için Demo butonunu kullanabilirsiniz. Tema sayfalarının alt taraflarında ise tema ile ilgili dokümantasyon, yükleme yönergeleri vs. bulunmaktadır. Biz şimdi Download butonuna tıklayarak indirme sayfasına gidelim.
-<center><img src="https://dl.dropboxusercontent.com/s/tulob2n2ajik7nk/hugo-site-4.jpg?dl=0" alt="" /></center></p>
-
-<p>Temanın github sayfasına ulaştık. Temayı indirmek için sağ tarafta bulunan yeşil <strong>Clone or download</strong> butonuna tıklayın. Açılan küçük pencereden <strong>Download ZIP</strong> linkine tıklayın ve temanın zipli dosyasını bilgisayarınıza indirin.
-<center><img src="https://dl.dropboxusercontent.com/s/f9psjfsoyve5gns/hugo-site-5.jpg?dl=0" alt="" /></center></p>
-
-<p>İndirme tamamlandıktan sonra zipli dosyanın içerisindeki tema klasörünü C://Hugo/test/themes klasörünün altına kopyalayın. Klasörün içini değil, kendisini kopyalamanız gerekmektedir. hugo-theme-zzo-master olan tema klasörünün adını kolaylık olması için zzo olarak değiştirin.
-<center><img src="https://dl.dropboxusercontent.com/s/xynz90ds124xieu/hugo-site-6.jpg?dl=0" alt="" /></center></p>
-
-<p>Bu aşamada tema klasörümüzün içerisine girerek <strong>ExampleSite</strong> adında bir klasör olduğunu görebilirsiniz. Burası temamıza özel yazıların, ayarların, fotoğrafların olduğu dataları içermektedir. Klasörün içerisindeki tüm dosya ve klasörleri seçerek kopyalayın.
-<center><img src="https://dl.dropboxusercontent.com/s/yw07lgngr3g5g50/hugo-site-7.jpg?dl=0" alt="" /></center></p>
-
-<p><strong>test</strong> klasörüne geri dönün ve az önce kopyaladığımız dosyaları buraya yapıştırın.
-<center><img src="https://dl.dropboxusercontent.com/s/6cnnz6snilka1xu/hugo-site-8.jpg?dl=0" alt="" /></center></p>
-
+<p>Şimdi sitemizi yaptık fakat Hugo'da varsayılan olarak herhangi bir tema yüklü gelmiyor. Bunun için <a href="https://themes.gohugo.io/">şu adrese</a> giderek Hugo için oluşturulmuş yüzlerce ücretsiz  tema arasından seçim yapıp kullanabiliriz. Bu örnekte <a href="https://themes.gohugo.io/hugo-theme-zzo/">Zzo</a> temasını seçtim.</p>
+<p>Herhangi bir temanın sayfasına girdiğinizde sizi Download, Demo ve Homepage butonları karşılıyor. Temayı indirip kullanmak için Download butonunu kullanmalısınız. Örnek bir demosunu görmek için Demo butonunu kullanabilirsiniz. Tema sayfalarının alt taraflarında ise tema ile ilgili dokümantasyon, yükleme yönergeleri vs. bulunmaktadır. Biz şimdi Download butonuna tıklayarak indirme sayfasına gidelim.</p>
+<!-- raw HTML omitted -->
+<p>Temanın github sayfasına ulaştık. Temayı indirmek için sağ tarafta bulunan yeşil <strong>Clone or download</strong> butonuna tıklayın. Açılan küçük pencereden <strong>Download ZIP</strong> linkine tıklayın ve temanın zipli dosyasını bilgisayarınıza indirin.</p>
+<!-- raw HTML omitted -->
+<p>İndirme tamamlandıktan sonra zipli dosyanın içerisindeki tema klasörünü C://Hugo/test/themes klasörünün altına kopyalayın. Klasörün içini değil, kendisini kopyalamanız gerekmektedir. hugo-theme-zzo-master olan tema klasörünün adını kolaylık olması için zzo olarak değiştirin.</p>
+<!-- raw HTML omitted -->
+<p>Bu aşamada tema klasörümüzün içerisine girerek <strong>ExampleSite</strong> adında bir klasör olduğunu görebilirsiniz. Burası temamıza özel yazıların, ayarların, fotoğrafların olduğu dataları içermektedir. Klasörün içerisindeki tüm dosya ve klasörleri seçerek kopyalayın.</p>
+<!-- raw HTML omitted -->
+<p><strong>test</strong> klasörüne geri dönün ve az önce kopyaladığımız dosyaları buraya yapıştırın.</p>
+<!-- raw HTML omitted -->
 <p>Son olarak <strong>config</strong> klasörünün altındaki <strong>_default</strong> klasörünün altındaki tüm dosyaları seçerek ana test klasörüne kopyalayın.
-<strong>Hedefte zaten &ldquo;config.toml&rdquo; adında bir dosyası var</strong> uyarısına <strong>Hedefteki dosyayı değiştir</strong> seçeneğini seçip kopyalama işlemini bitirin.
-<center><img src="https://dl.dropboxusercontent.com/s/aue0wcryoj6wsrt/hugo-site-9.jpg?dl=0" alt="" /></center></p>
-
+<strong>Hedefte zaten &ldquo;config.toml&rdquo; adında bir dosyası var</strong> uyarısına <strong>Hedefteki dosyayı değiştir</strong> seçeneğini seçip kopyalama işlemini bitirin.</p>
+<!-- raw HTML omitted -->
 <p>Artık sitemizi çalıştırabiliriz. Bunun için cmd komut satırına geri dönüp aşağıdaki komutu yazmanız yeterli.</p>
-
 <pre><code>hugo server
 </code></pre>
-
-<p><center><img src="https://dl.dropboxusercontent.com/s/6hwmndgzqll35o0/hugo-site-10.jpg?dl=0" alt="" /></center></p>
-
-<p><strong>hugo server</strong> komutu sitemizi lokal bilgisayarımızda çalıştırabilmemizi ve yaptıklarımızın sonucunu görebilmemizi sağlar. Bir nevi bilgisayarımızı geçici olarak sunucuya dönüştürür. Artık tarayıcınızın adres satırına <strong>localhost:1313</strong> yazıp Enter tuşuna basarsanız yapmış olduğunuz Hugo sitenizi görebilirsiniz. Unutmayın, şu aşamada siteniz sizin bilgisayarınızda çalışmaktadır. Başkaları henüz sitenizi göremiyorlar. İleride o da olacak.
-<center><img src="https://dl.dropboxusercontent.com/s/194le56g3p2ex1j/hugo-site-11.jpg?dl=0" alt="" /></center></p>
-
-<p>Bu temada ihtiyacımız olmadı ama siz başka tema kullanırsanız dikkat etmeniz gereken bir tane detay var. Sitenizin ana dizininde bulunan <strong>config.toml</strong> dosyasında yer alan <strong>theme = &ldquo;tema adı&rdquo;</strong> satırında tırnak içerisinde yazan tema adınızın, tema klasör adı ile birebir aynı olması gerekmekte. Hatırlarsanız zipli tema klasörünü kopyaladıktan sonra adını zzo olarak değiştirmiştik. Bunu yapmasaydık sitemizi açtığımızda boş bir sayfa görecektik.
-<center><img src="https://dl.dropboxusercontent.com/s/2jpdu4rlv61uxx6/hugo-site-12.jpg?dl=0" alt="" /></center>
-Bu arada benim notepad yerine <a href="https://notepad-plus-plus.org/">notepad++</a> kullandığımı fark etmişsinizdir. Size de tavsiye ederim.</p>
-
+<!-- raw HTML omitted -->
+<p><strong>hugo server</strong> komutu sitemizi lokal bilgisayarımızda çalıştırabilmemizi ve yaptıklarımızın sonucunu görebilmemizi sağlar. Bir nevi bilgisayarımızı geçici olarak sunucuya dönüştürür. Artık tarayıcınızın adres satırına <strong>localhost:1313</strong> yazıp Enter tuşuna basarsanız yapmış olduğunuz Hugo sitenizi görebilirsiniz. Unutmayın, şu aşamada siteniz sizin bilgisayarınızda çalışmaktadır. Başkaları henüz sitenizi göremiyorlar. İleride o da olacak.</p>
+<!-- raw HTML omitted -->
+<p>Bu temada ihtiyacımız olmadı ama siz başka tema kullanırsanız dikkat etmeniz gereken bir tane detay var. Sitenizin ana dizininde bulunan <strong>config.toml</strong> dosyasında yer alan <strong>theme = &ldquo;tema adı&rdquo;</strong> satırında tırnak içerisinde yazan tema adınızın, tema klasör adı ile birebir aynı olması gerekmekte. Hatırlarsanız zipli tema klasörünü kopyaladıktan sonra adını zzo olarak değiştirmiştik. Bunu yapmasaydık sitemizi açtığımızda boş bir sayfa görecektik.</p>
+<!-- raw HTML omitted -->
 <p>Artık sizin de bir siteniz var. Tüm bu aşamaları biliyor olsanız 2 dakikadan kısa sürede Hugo sitenizi bilgisayarınızda çalıştırmanız mümkün. Bundan sonra sitenizin içeriğini düzenleme aşamaları. <strong>content</strong> klasörünün altına girip tüm sayfaları düzenleyebilirsiniz. Hugo sayfaları markdown dilini desteklemektedir. Bunun için herhangi bir online markdown editor kullanarak normal ofis programı kullanır gibi sayfalarınızı güncelleyebilirsiniz. Online markdown editor olarak <a href="https://stackedit.io/">şu uygulamayı</a> önerebilirim.</p>
-
 <p><strong>config.toml</strong> sayfasından siteniz ile ilgili tüm ayarları değiştirebilirsiniz (<strong>disqus</strong> hesabınızı veya <strong>google analytics</strong> hesabınızı buradan girebilirsiniz örneğin. Veya temanız destekliyor ise sosyal medya hesaplarınızı buradan ekleyebilirsiniz). İngilizceniz varsa temanın kendi sayfasından dokümantasyonu okursanız tema ile ilgili tüm bilgilere ulaşabilirsiniz.</p>
-
 <p>Son olarak Hugo sayfalarınızda yaptığınız değişiklikler tarayıcınızda gerçek zamanlı olarak gösterilmektedir. Yani sitenizin bir sayfasını güncellediniz diyelim, localhost sayfasını yenilemeden yaptığınız değişikliği görebilirsiniz. hugo server komutunu kapatmak isterseniz cmd komut satırında *<strong>ctrl+c</strong> tuşlarına aynı anda basabilirsiniz. Bunu yaparsanız hugo server yazarak çalıştırdığınız server durdurulur.</p>
 
     </article>
@@ -188,7 +161,9 @@ Bu arada benim notepad yerine <a href="https://notepad-plus-plus.org/">notepad++
     </div>
 
     <ul class="pager article-pager">
-      <li class="pager-newer pager-noitem">&lt; Sonraki Yazı</li>
+      <li class="pager-newer">
+          <a href="/post/23-hugo-github-yayinlama/" data-toggle="tooltip" data-placement="top" title="Hugo Sitenizi Github&#39;da Yayınlayın">&lt; Sonraki Yazı</a>
+      </li>
       <li class="pager-older">
         <a href="/post/21-hugo-yukleme/" data-toggle="tooltip" data-placement="top" title="Bilgisayarınıza Hugo Yüklemek">Önceki Yazı &gt;</a>
       </li>

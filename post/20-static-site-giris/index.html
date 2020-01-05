@@ -15,7 +15,7 @@
   <meta property="og:url" content="https://denizatmaca.com/post/20-static-site-giris/" />
   <meta property="og:type" content="article" />
   <meta name="twitter:card" content="summary" />
-  <meta name="generator" content="Hugo 0.58.3" />
+  <meta name="generator" content="Hugo 0.62.1" />
 
   <link rel="stylesheet" href="/css/style.css" media="all" />
   <link rel="stylesheet" href="/css/syntax.css" media="all" />
@@ -88,22 +88,13 @@
         </li>
       </ul>
       
-      
-
-<h1 id="statik-site-nedir">Statik Site Nedir?</h1>
-
+      <h1 id="statik-site-nedir">Statik Site Nedir?</h1>
 <p>Statik web siteleri veritabanına ihtiyaç duymayan, tamamen html dosyalarından oluşan sitelerdir.</p>
-
 <h1 id="jekyll-hugo-vs-nedir">Jekyll, Hugo vs. Nedir?</h1>
-
 <p>Yakın zamanda hayatımıza <strong>static site generator</strong> dediğimiz uygulamalar girdi. Bu uygulamalar markdown dilinde yazmış olduğumuz yazıları html dosyalarına çevirmek için birer araç aslında. Şu anda onlarcası bulunan uygulamaların ilki ve halen en popüleri Jekyll. Onu Hugo takip ediyor.</p>
-
-<h1 id="neden-statik-site-yapmak-isteyelim">Neden Statik Site Yapmak İsteyelim?</h1>
-
+<h1 id="neden-statik-site-yapmak-steyelim">Neden Statik Site Yapmak İsteyelim?</h1>
 <p>Çünkü bu tür siteleri yapmak çok kolay ve çok hızlı. İşleyişi öğrendikten sonra 2 dk. içerisinde lokalde çalışan bir web sitesine sahip oluyorsunuz.</p>
-
-<h1 id="statik-sitelerin-avantajları">Statik Sitelerin Avantajları</h1>
-
+<h1 id="statik-sitelerin-avantajlar">Statik Sitelerin Avantajları</h1>
 <ul>
 <li>Kurulumları hızlı ve basit.</li>
 <li>Sayfa yüklenme hızları çok hızlı.</li>
@@ -111,31 +102,23 @@
 <li>Sunucu maliyeti yok (github, bitbucket gibi sitelerde ücretsiz host edebiliyorsunuz).</li>
 <li>İçeriğinizi markdown dilinde hazırlıyorsunuz.</li>
 </ul>
-
-<h1 id="statik-sitelerin-dezavantajları">Statik Sitelerin Dezavantajları</h1>
-
+<h1 id="statik-sitelerin-dezavantajlar">Statik Sitelerin Dezavantajları</h1>
 <ul>
 <li>Her tip siteye uygun değil. Kullanıcılar ile etkileşimli bir site yapmak istiyorsunuz kullanmanız mümkün değil.</li>
 <li>Veritabanı olmadığı için veritabanına ihtiyaç duyduğunuz durumları outsource ediyorsunuz. Örneğin yorum için disqus kullanmak gibi.</li>
 <li>Wordpress ile kıyaslandığında yeterince tema ve eklenti yok.</li>
 </ul>
-
 <h1 id="hugo-vs-jekyll">Hugo vs. Jekyll</h1>
-
-<p>Jekyll tanıtılan ilk static site generator. Github kurucuları tarafından yapılıyor. Bu sebepten dolayı github ile oldukça entegre ve iyi çalışıyor. Açık ara en çok kullanılan static site generator. Onu Hugo takip ediyor. Hugo, go dilinde yazılmış. Jekyll ruby dilinde yazılmıştı. Bu da fazla içeriği olan siteler için Jekyll&rsquo;a biraz hantallık katıyor. Hugo bunun için ortaya çıkmış. Go dili, Ruby&rsquo;e göre daha esnek ve hızlı. Tüm bunlar kafanızı karıştırmasın, statik site yapmak için programlama bilmenize gerek yok.</p>
-
-<p>Ben Hugo uygulamasını tercih ettim ve şu anda gördüğünüz siteyi bu şekilde yapıp github&rsquo;da host etmeye başladım. Önümüzdeki günlerde Hugo&rsquo;nun kurulumundan, site yapımına, host edilmesine kadar tüm aşamalarını anlatan bir yazı serisine başlayacağım. İnternette tüm bu süreci anlatan onlarca Türkçe ve İngilizce kaynak var. Hepsi süreci kısaltmak ve kolaylaştırmak için çeşitli konsol komutları kullanıyor. Ben neredeyse hiç konsol komutu kullanmadan, tamamen arayüz üzerinden tüm süreci anlatmaya çalışacağım. Böylece daha önce kodlama ve github tecrübeniz olmasa bile kendi sitenizi yapıp ücretsiz olarak host edebileceksiniz.</p>
-
+<p>Jekyll tanıtılan ilk static site generator. Github kurucuları tarafından yapılıyor. Bu sebepten dolayı github ile oldukça entegre ve iyi çalışıyor. Açık ara en çok kullanılan static site generator. Onu Hugo takip ediyor. Hugo, go dilinde yazılmış. Jekyll ruby dilinde yazılmıştı. Bu da fazla içeriği olan siteler için Jekyll'a biraz hantallık katıyor. Hugo bunun için ortaya çıkmış. Go dili, Ruby'e göre daha esnek ve hızlı. Tüm bunlar kafanızı karıştırmasın, statik site yapmak için programlama bilmenize gerek yok.</p>
+<p>Ben Hugo uygulamasını tercih ettim ve şu anda gördüğünüz siteyi bu şekilde yapıp github'da host etmeye başladım. Önümüzdeki günlerde Hugo'nun kurulumundan, site yapımına, host edilmesine kadar tüm aşamalarını anlatan bir yazı serisine başlayacağım. İnternette tüm bu süreci anlatan onlarca Türkçe ve İngilizce kaynak var. Hepsi süreci kısaltmak ve kolaylaştırmak için çeşitli konsol komutları kullanıyor. Ben neredeyse hiç konsol komutu kullanmadan, tamamen arayüz üzerinden tüm süreci anlatmaya çalışacağım. Böylece daha önce kodlama ve github tecrübeniz olmasa bile kendi sitenizi yapıp ücretsiz olarak host edebileceksiniz.</p>
 <p>Aşama aşama neler yapacağımızı aşağıda anlatıyorum. Yazılar yayınlandıkça yanlarına linkler eklenecek.</p>
-
 <ul>
 <li>Hugo kurulumu.</li>
 <li>Hugo ile site yapımı.</li>
-<li>Hugo ile yapılan sitenin github&rsquo;da ücretiz host edilmesi.</li>
+<li>Hugo ile yapılan sitenin github'da ücretiz host edilmesi.</li>
 <li>Kendi domain adımızın yaptığımız siteye bağlanması.</li>
 </ul>
-
-<p>Belirtmekte yarar var, yazılar Windows işletim sistemi baz alınarak yapılacak. Siz farklı bir işletim sistemi kullanıyorsanız en azından kurulum aşaması için Hugo&rsquo;nun kendi dokümantasyon sayfasına göz gezdirebilirsiniz.</p>
+<p>Belirtmekte yarar var, yazılar Windows işletim sistemi baz alınarak yapılacak. Siz farklı bir işletim sistemi kullanıyorsanız en azından kurulum aşaması için Hugo'nun kendi dokümantasyon sayfasına göz gezdirebilirsiniz.</p>
 
     </article>
 
