@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deniz Atmaca</title>
+    <link>https://denizatmaca.com/</link>
+    <description>Recent content on Deniz Atmaca</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>deniz@denizatmaca.com (Deniz Atmaca)</managingEditor>
+    <webMaster>deniz@denizatmaca.com (Deniz Atmaca)</webMaster>
+    <lastBuildDate>Thu, 09 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://denizatmaca.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>1984 - George Orwell (Kitap İncelemesi)</title>
+      <link>https://denizatmaca.com/post/24-1984-george-orwell/</link>
+      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/post/24-1984-george-orwell/</guid>
+      <description>2020 yılının ilk günlerinde Eric Arthur Blair&amp;rsquo;in veya bilinen adı ile George Orwell&amp;rsquo;in 1949 yılında yazdığı ve 1984 yılını anlatan 1984 adlı romanını okumak ilginç olabilir.
+
+1984 var olmayan ve umarız hiçbir zaman var olmayacak bir dünyayı anlatan çarpıcı bir roman. Dünya birbirleri ile savaş halinde olan 3 büyük süper devlete ayrılmıştır. Bunlar Okyanusya, Avrasya ve Doğu Asya devletleridir. Hikayemiz Okyanusya devletinde yaşayan Winston Smith karakterini konu almaktadır.</description>
+    </item>
+    
+    <item>
+      <title>Hugo Sitenizi Github&#39;da Yayınlayın</title>
+      <link>https://denizatmaca.com/post/23-hugo-github-yayinlama/</link>
+      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/post/23-hugo-github-yayinlama/</guid>
+      <description>Önceki yazılarımızda Hugo aracını tanımıştık, bilgisayarımıza yüklemiştik ve ilk sitemizi yapmıştık. Şimdi ise oluşturduğumuz siteyi github&amp;rsquo;a gönderip ücretsiz olarak host edeceğiz.
+Bunun için öncelikle github.com sitesinden hesap açmamız gerekmekte. Daha sonra yeşil &amp;ldquo;New&amp;rdquo; butonuna basarak yeni repository yaratacağız.
+
+Karşımıza aşağıdaki gibi ekran çıkıyor. Burada repository adımızı yazıyoruz. Ben bu örnekte test yazdım, siz ne isterseniz onu yazabilirsiniz. Kalan ayarları değiştirmenize gerek yok. Bu şekilde &amp;ldquo;Create Repository&amp;rdquo; butonuna basarak kaydedebilirsiniz.</description>
+    </item>
+    
+    <item>
+      <title>Hugo ile Statik Site Yapımı</title>
+      <link>https://denizatmaca.com/post/22-hugo-site-yapimi/</link>
+      <pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/post/22-hugo-site-yapimi/</guid>
+      <description>Bir önceki yazımızda Hugo uygulamasını Windows 10 bilgisayarımıza yüklemiştik. Şimdi ilk sitemizi yapacağız.
+Klavyeden Windows+R tuşlarına basıp çıkan kutuya cmd yazıp klavyeden Enter tuşuna basarak komut satırını çalıştırın. 
+Konsol penceresini açmış olduk. Şimdi Hugo dizini altına gitmemiz gerek. Bunun için konsol satırına aşağıdaki komutu yazın.
+cd C:\Hugo  Artık ilk sitemizi yapmaya hazırız. Bunun için konsol satırına aşağıdaki komutu yazın ve Enter tuşuna basın.
+hugo new site test  test burada bizim yaptığımız sitenin adı.</description>
+    </item>
+    
+    <item>
+      <title>Bilgisayarınıza Hugo Yüklemek</title>
+      <link>https://denizatmaca.com/post/21-hugo-yukleme/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/post/21-hugo-yukleme/</guid>
+      <description>Bir önceki yazımda static site generator&amp;rsquo;lardan bahsetmiştim. Hugo nedir diye merak ediyorsanız o yazıya göz atabilirsiniz.
+Bu yazıda ise Windows bilgisayarınıza Hugo nasıl yüklenir bunu öğreneceğiz.
+Öncelikle şuradaki adresi ziyaret edip, sayfanın altında yer alan versiyonlardan işletim sisteminize uygun olanı bilgisayarınıza indirin. C dizinin altına Hugo adında yeni bir klasör oluşturun. Onun altına da bin adında yeni bir klasör oluşturun. Bilgisayarınıza indirdiğiniz zip dosyasının içerisindeki tüm dosyaları bin klasörünün altına kopyalayın.</description>
+    </item>
+    
+    <item>
+      <title>Static Site Dünyasına Giriş</title>
+      <link>https://denizatmaca.com/post/20-static-site-giris/</link>
+      <pubDate>Sat, 28 Dec 2019 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/post/20-static-site-giris/</guid>
+      <description>Statik Site Nedir? Statik web siteleri veritabanına ihtiyaç duymayan, tamamen html dosyalarından oluşan sitelerdir.
+Jekyll, Hugo vs. Nedir? Yakın zamanda hayatımıza static site generator dediğimiz uygulamalar girdi. Bu uygulamalar markdown dilinde yazmış olduğumuz yazıları html dosyalarına çevirmek için birer araç aslında. Şu anda onlarcası bulunan uygulamaların ilki ve halen en popüleri Jekyll. Onu Hugo takip ediyor.
+Neden Statik Site Yapmak İsteyelim? Çünkü bu tür siteleri yapmak çok kolay ve çok hızlı.</description>
+    </item>
+    
+    <item>
+      <title>Revell 1/144 Micro Wings Junkers Ju 87B Stuka Plastik Maket</title>
+      <link>https://denizatmaca.com/post/15-revell-micro-wings/</link>
+      <pubDate>Thu, 20 Nov 2014 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/post/15-revell-micro-wings/</guid>
+      <description>Merhaba, bu sefer Revell’in Micro Wings serisi ile karşınızdayım. Micro Wings maket dükkanına gittiğinizde dikkatinizi çekecek minik dikdörtgen kutularda satılan ikinci dünya savaşı savaş uçaklarından oluşan bir seri.
+Maketi fazla vaktim olmadığı için haftasonu eğlencelik, zaman geçirmelik olarak aldım, çıtır çerez muamelesi yaptım resmen ama tüm hafta sonumu yedi. Anladım ki maket ne kadar küçülürse o kadar uğraştırıcı oluyor, bir de jet uçaklarına tövbe ettim bundan sonra, uzun bir süre elleşmeyi düşünmüyorum.</description>
+    </item>
+    
+    <item>
+      <title>Airfix 1/76 Bofors 40mm Gun &amp; Tractor Plastik Maket</title>
+      <link>https://denizatmaca.com/post/14-airfix-bofors/</link>
+      <pubDate>Wed, 19 Nov 2014 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/post/14-airfix-bofors/</guid>
+      <description>Bugün severek aldığım ve yaparken acayip keyif aldığım bir maket ile karşınızdayım. Bu maketi seçerken ilk 4 tekerlekli maketimi yapmak için cip bakınıyordum, bu maketi görünce hem 4 tekerlekli bir cip hem de eski bir uçaksavar yapabileceğimi fark edip hemen aldım. Ben şimdilik maket alırken derinlemesine araştırmadan, dükkana gidip beğenmeyi tercih ediyorum. Aldığım maketlerin ne olduğunu eve gelip araştırınca öğreniyorum. Bu arada cipimiz 4 değil 6 tekerlekli 🙂
+Gelelim maketimize. 1930’larda İsveçli Bofors şirketi tarafından tasarlanmış 18 kadar ülkenin ikinci dünya savaşı sırasında kullandığı bir uçaksavar.</description>
+    </item>
+    
+    <item>
+      <title>Airfix 1/76 Sherman Calliope Tank Plastik Maket</title>
+      <link>https://denizatmaca.com/post/13-airfix-sherman-calliope/</link>
+      <pubDate>Tue, 18 Nov 2014 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/post/13-airfix-sherman-calliope/</guid>
+      <description>İlk defa Revell dışında bir marka ile karşınızdayım. Bu sefer Airfix firmasının bir maketini anlatacağım. Maketin sayfasına şuradan gidebilirsiniz. Öncelikle tank hakkında biraz bilgi vereyim.
+Calliope tankı bir başka adı ile T34 tankı ikinci dünya savaşında ABD tarafından kullanılan bir roketatar. İkinci dünya savaşı temalı bir film izlediyseniz ya da oyun oynadıysanız mutlaka karşınıza çıkmış olmalı. Üzerinde 60 adet fırlatma tüpü ile 114 mm’lik roketler fırlatabilen tankı Company Of Heroes strateji oyununu oynamış olanlar bilirler (ki oynamamışsanız ve strateji seviyorsanız tavsiyemdir), oyunda en fazla iki adet basılabilen epey değerli bir tanktır.</description>
+    </item>
+    
+    <item>
+      <title>Revell 1/390 Boeing 747-200 Plastik Maket</title>
+      <link>https://denizatmaca.com/post/12-revell-boeing-747/</link>
+      <pubDate>Sun, 09 Nov 2014 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/post/12-revell-boeing-747/</guid>
+      <description>Merhaba. Bugünkü maketimiz Revell’in jumbo jeti, Boeing 747-200 Air Canada modeli. Maketin ölçeği 1&amp;frasl;390, zorluk seviyesi Revell’in 1-5 aralığına göre 3. Fiyatı 15 tl civarında, bitmiş halinin kanat genişliği 156 mm, uzunluğu 183 mm. 60 adet parçadan oluşuyor, küçük, yapımı kolay ve zevkli, ucuz bir maket ile karşınızdayım.
+Maketten bahsedecek olursam, Boeing 747-200 bugün gökyüzünde görebileceğiniz bir uçak değil, yapımı 1966 yılına dayanıyor, ilk teslimi KLM firmasına 1969 yılında. Son teslimi ise 1990 yılında.</description>
+    </item>
+    
+    <item>
+      <title>Revell 1/144 Patrouille De France Plastik Maket</title>
+      <link>https://denizatmaca.com/post/11-revell-patrouille-de-france/</link>
+      <pubDate>Fri, 21 Feb 2014 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/post/11-revell-patrouille-de-france/</guid>
+      <description>Bugün yazımda ikinci maketimi tanıtacağım. Bu maketim de önceki gibi Revell marka ama bu seferki Skill 3, yani biraz daha zor. Benim bundan anladığım parçaları daha çok ve detaylı ama aynı zamanda maket de daha küçük ve bu da ekstra bir zorluk katıyor.
+Öncelikle maket ile ilgili kısa bilgi vereyim. Maket Alfa Jet uçağı diye de geçiyor. Şansıma bu da bir Fransa malı. Zaten iki maketimi de renkleri benzer olsun diye seçtiğimden ötürü ve iki maketin renkleri de Fransa bayrağı olduğundan ötürü böyle olmuş oldu.</description>
+    </item>
+    
+    <item>
+      <title>Revell 1/450 La Reale Plastik Maket</title>
+      <link>https://denizatmaca.com/post/10-revell-lareale/</link>
+      <pubDate>Fri, 21 Feb 2014 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/post/10-revell-lareale/</guid>
+      <description>Bugün ilk yaptığım maket çalışmasını paylaşacağım. Daha önce maketçilik hobisi ile ilgili yeni başlayanlara yönelik bir takım bilgiler vermiştim O yazım şurada.
+Revell’in Fransız galon gemisi, La Reale. Revell’in sınıflandırmasına göre zorluk derecesi 2. Bunun 5 üzerinden olduğunu belirteyim, yani en kolay olandan bir zor oluyor, gayet kolay yani. Maket hakkında konuşmam gerekirse, oldukça kolay ve zevkli bir maket. Kalıpla ilgili bir sıkıntı göremedim ama bu konuda çok da tecrübeli değilim.</description>
+    </item>
+    
+    <item>
+      <title>Plastik Maket Dünyasına Giriş</title>
+      <link>https://denizatmaca.com/post/9-maket-giris/</link>
+      <pubDate>Thu, 20 Feb 2014 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/post/9-maket-giris/</guid>
+      <description>Sonunda ben de maket dünyasına giriş yapmış bulunuyorum. Bu keyifli hobiye tutulmamın sebebi Teknoseyir ekibinin konuya eğilmesi ve elbette konuk Burak Öztan’ın harika maketleri. İzlemek isterseniz sırasıyla şu videoları tavsiye ederim. Bu linkteki 2 videodan önce “Yılların eskitemediği hobi: Plastik modelcilik” isimli videoyu, daha sonra da “Maketçiliği merak edenlere: İpuçları, öneriler, bilgiler” isimli videoyu izleyin. Bu iki videoyu izledikten sonra ilginizi çekerse şu videoları da öneririm.
+Bu linkteki videolardan önce “Maketçiliğe başlarken gerekli olan malzemeler” isimli videoyu, daha sonra “Örnek maket montajı yapma zamanı” ve son olarak “Maketlerin olmazsa olmazı boya nasıl uygulanır?</description>
+    </item>
+    
+    <item>
+      <title>Benelüks Paris Turu</title>
+      <link>https://denizatmaca.com/post/8-beneluks-paris-gezisi/</link>
+      <pubDate>Wed, 27 Nov 2013 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/post/8-beneluks-paris-gezisi/</guid>
+      <description>Kasım’da aşk başkadır, Paris aşk şehridir, demek ki Kasım’da Paris başkadır diyerek çıktığımız, gitmişken Benelüks ülkelerini de görelim diyerekten yine dolu dolu bir hafta geçirdiğimiz bir turun daha sonuna geldik. Bu sefer elimden geldiğince teknik, sıkıcı, faydalı bir yazı yazma niyetindeyim. Gittik, geldik, yedik içtik. Yazı muhtemelen bunlardan oluşacak, turla gidecek olanlar, tursuz gidecek olanlar, siz de gelin.
+1.GÜN Köln, Lüxemburg 17 Kasım günü sabah 8:20’de Sabiha Gökçen hava alanına başladı yolculuğumuz.</description>
+    </item>
+    
+    <item>
+      <title>Alternatif Enerjili Araba Yarışları</title>
+      <link>https://denizatmaca.com/post/19-alternatif-enerji-yaris/</link>
+      <pubDate>Wed, 30 Oct 2013 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/post/19-alternatif-enerji-yaris/</guid>
+      <description>Var böyle bir şey. Her sene Tübitak bünyesinde düzenleniyor. Bu sene Kocaeli Körfez pistinde yapıldı.
+İlk yarış güneş enerjisi ile çalışan araba yarışıydı. Toplam yanılmıyorsam 39 araba sıralama turlarında yarıştı. Bunlardan 20 tanesi Pazar günü yarışmaya hak kazandı. İkinci yarış hidrojen enerjisi ile çalışan araba yarışıydı. Burada araba sayısı az olduğundan eleme yapılmadı. Toplam 18 araba vardı zaten.
+Pist alanı oldukça güzel dizayn edilmişti. Her üniversiteye bir çadır verilmiş, güneş ve hidrojen arabaları birbirlerinden ayrılmışlardı.</description>
+    </item>
+    
+    <item>
+      <title>10 Günlük Otobüsle İtalya Yunanistan Turu</title>
+      <link>https://denizatmaca.com/post/2-italya-turu/</link>
+      <pubDate>Thu, 26 Sep 2013 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/post/2-italya-turu/</guid>
+      <description>Eylül ayında yapmış olduğumuz otobüs ile 10 günlük İtalya-Yunanistan turunun incelemesi ile karşınızdayım. Öncelikle tur ile ilgili birkaç bilgi vereyim. İstanbul&amp;rsquo;dan otobüse biniyorsunuz ve 10 gün boyunca aynı otobüs ile seyahat ediyorsunuz. Yunanistan üzerinden gemi ile İtalya&amp;rsquo;ya geçiyorsunuz. Toplam 6 gün otelde konaklıyor, kalan günlerde gece otobüs ile şehir değiştiriyorsunuz. Dolayısıyla 4 gece otobüste uyuyorsunuz.
+Rehber Ayhan Kalyan Rehberimiz Ayhan Kalyan’dı. Kendisinin Facebook sayfası şurada. Ayhan Kalyan işini çok iyi yapan ve iyi bir tatil geçirmeniz için sizden daha çok çabalayan birisi.</description>
+    </item>
+    
+    <item>
+      <title>Kıyı Kıyı Ege Turu</title>
+      <link>https://denizatmaca.com/post/7-ege-turu/</link>
+      <pubDate>Fri, 30 Aug 2013 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/post/7-ege-turu/</guid>
+      <description>İstanbul&amp;rsquo;dan yola çıkıp Ege&amp;rsquo;nin muhteşem kıyılarında kamp yaptıktan sonra Olimpos&amp;rsquo;ta sonlandırdığımız 10 günlük muhteşem kamp tatilimizin yazısı.
+Altınoluk İlk gecemiz yolda geçti. Sabahın erken saalerinde Balıkesir Altınoluk ilçesine varmıştık. Sabah kahvaltı için durduğumuz yerde çalışan garson kamp yapmak için Sır Motel&amp;rsquo;i önerdi. İşletmenin hem kamp alanı var hem de motel binası. Kamp alanında hazır çadırlar var, onlarda kalmak isterseniz biraz daha fazla para istiyorlar. Biz kendi çadırımızı kurduğumuzdan günlük 35 tl ödedik.</description>
+    </item>
+    
+    <item>
+      <title>İkinci El Fotoğraf Makinesi Alırken Dikkat Edilecekler</title>
+      <link>https://denizatmaca.com/post/3-dslr-alacaklara-tavsiyeler/</link>
+      <pubDate>Thu, 27 Jun 2013 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/post/3-dslr-alacaklara-tavsiyeler/</guid>
+      <description>Bu konuda çok fazla kaynak var. Ben de kendi tecrübelerimle bir toparlama yapayım istedim.
+DIŞ GÖVDE  İkinci el makine alırken öncelikle gövdenin kozmetiğine bakarız. Kozmetikten makinenin düşüp düşmediği, hangi koşullarda kullanıldığı belli olur. Kırık, çıkık dışında ufak çiziklerin bir önemi yok. Dslr gövdeler yapıları itibariyle sağlam makinelerdir. Bu aşamada tuşların, mod tekerinin, ayar tekerinin de kontrolünü yapabilirsiniz. Özellikle deklanşörün hassasiyeti iyice kontrol edilmelidir.  NETLİK NOKTALARI  Daha sonra netlik noktalarının yanıp yanmadığı teker teker kontrol edilmeli.</description>
+    </item>
+    
+    <item>
+      <title>CHDK Menülerinde Gezinti</title>
+      <link>https://denizatmaca.com/post/6-chdk-menu/</link>
+      <pubDate>Fri, 12 Oct 2012 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/post/6-chdk-menu/</guid>
+      <description>CHDK’yı indirdik, kurduk. Sıra geldi kullanmaya.
+ARAYÜZ CHDK’nın çok ilkel bir arayüzü var. İşini yapıyor ama bence pek kullanışlı olduğu söylenemez. Birçok Canon kompakt makinada bir adet hiçbir işe yaramayan, yazdırma tuşu bulunuyor. İşte bu tuş genelde CHDK’yı aktif ya da pasif yapmak için kullandığımız tuş oluyor.  Görselde görünen, Print tuşuna basarak CHDK menülerini aktif hale getirebilirsiniz. Normal Canon menülerinde gezinmek için yine aynı tuşa basarak pasif hale getirmeniz gerekmektedir.</description>
+    </item>
+    
+    <item>
+      <title>CHDK Yüklemek</title>
+      <link>https://denizatmaca.com/post/5-chdk-yukleme/</link>
+      <pubDate>Thu, 11 Oct 2012 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/post/5-chdk-yukleme/</guid>
+      <description>Fotoğraf makinenize CHDK yüklemek oldukça basit bir işlemdir. Önceki yazıda belirttiğim gibi, riskli bir yöntem değildir ama risk tamamen size aittir. Sorumluluk kabul etmiyorum. Adım adım gidelim. Öncelikle Download sayfasında sizin kamera modeliniz için CHDK sürümü bulunup bulunmadığını kontrol edin. Yaklaşık tüm kompakt Canon modelleri için CHDK sürümü mevcuttur. Complete ve Small olmak üzere 2 sütun görüyorsunuz. Complete’de tüm özellikler ve 22 dil dosyası içinde gelir. Small biraz kırpılmıştır. Complete olanını indirmenizi tavsiye ederim.</description>
+    </item>
+    
+    <item>
+      <title>CHDK Nedir?</title>
+      <link>https://denizatmaca.com/post/4-chdk-giris/</link>
+      <pubDate>Fri, 05 Oct 2012 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/post/4-chdk-giris/</guid>
+      <description>CHDK (Canon Hack Development Kit) CHDK Canon fotoğraf makineleri için üçüncü parti hack yazılımıdır. Açılımı Canon Hack Development Kit‘dir. Normalde makinenizle yapamayacağınız şeyleri yapabilmenizi sağlar. Pratikte makinenize zarar vermez ama elbette kimse size bu konuda garanti vermez. Ne CHDK’yı yapanlar, ne de ben. Şimdiye kadar CHDK’dan dolayı makinesine zarar gelen bir kullanıcı raporlanmamıştır. Zaten yapılan işlem oldukça basittir. Fotoğraf makinenize taktığınız sd kartın içine atacağınız 1mb’dan küçük dosyalar ile makinenizin firmware versiyonunu geçici olarak değiştiriyorsunuz.</description>
+    </item>
+    
+    <item>
+      <title>Lenovo Thinkpad Edge 15 İncelemesi</title>
+      <link>https://denizatmaca.com/post/17-lenovo-thinkpad/</link>
+      <pubDate>Mon, 16 Jan 2012 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/post/17-lenovo-thinkpad/</guid>
+      <description>Bundan önceki bilgisayarım Acer Aspire 4710G modeliydi. Yaklaşık 3 senelik birlikteliğimize nokta koyarak daha bilinçli bir makina alma niyetindeydim. Eski makinamı değiştirmek istememin en büyük sebebi işlemcisinin Core Duo olması ve Linux dağıtımları ile pek iyi geçinememesiydi. Core Duo işlemci hemen her işlem için yeterliyken, iş VirtualBox üzerinde aynı anda 2 işletim sistemi çalıştırmaya gelince tam anlamıyla fiyasko bir performans gösteriyordu. Alacağım makinada aradığım birkaç özellik vardı. Linux ile uyumu yüzünden Nvidia ekran kartı, olabildiğince küçük ekran (13 veya daha küçük) ve Thinkpad.</description>
+    </item>
+    
+    <item>
+      <title>Amazon Kindle 3G İnceleme</title>
+      <link>https://denizatmaca.com/post/1-amazon-kindle-inceleme/</link>
+      <pubDate>Sun, 15 Jan 2012 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/post/1-amazon-kindle-inceleme/</guid>
+      <description>Amazon Kindle ile ilgili gerek Türkçe gerek İngilizce sayısız yorum ve bilgi kaynağı mevcut bu sebeten inceleme işlemini kısa tutacağım. Özetlemek gerekirse Amazon Kindle elektronik mürekkep kullanan okuma cihazlarının öncüsü ve dünyada en çok satan teknolojik aletlerden biridir. Arka aydınlatması olan LCD ekranlara nazaran elektronik mürekkep ve yansımasız ekran kullanması, arka aydınlatması olmaması, neredeyse basılı bir kitabın kalitesine eşdeğer bir okuma performansı vermektedir. Burada ciddi bir uyarıda bulunayım. Bilgisayar, telefon, iPad gibi LCD ekran kullanan cihazlardan uzun süre döküman okuduğunuzda gözlerinizin bozulma riski vardır.</description>
+    </item>
+    
+    <item>
+      <title>Sleeptracker İle Uyku Verimliliğinizi Ölçün</title>
+      <link>https://denizatmaca.com/post/16-sleeptracker-uyku-verimliligi/</link>
+      <pubDate>Sun, 15 Jan 2012 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/post/16-sleeptracker-uyku-verimliligi/</guid>
+      <description>Uyku konusunda çok sıkıntılıyım. Gündüz uyuyup gece takılmayı severim. Böyle olunca saçma sapan bir uyku döngüsüne sahip oluyorsunuz ister istemez. Kafamı yastığa koyduğum an uyuyanlardan değilim. En az 2 saatlik rötarım vardır. Eğer bir gün önce sabah geç kalkmışsam o gece erken uyuyamam. Sabahları yataktan kalkmak benim için ölüm gibidir. Özetle verimsiz bir gece uykusunun sonunda çoğu zaman gün içinde kendimi yorgun ve uykulu hissederim. Açıkçası bu güne kadar bunun hakkında hiç düşünme ihtiyacı hissetmedim.</description>
+    </item>
+    
+    <item>
+      <title>İnternetten Makale Okuma Sanatı</title>
+      <link>https://denizatmaca.com/post/18-internet-makale-okuma/</link>
+      <pubDate>Sun, 16 Jan 2011 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/post/18-internet-makale-okuma/</guid>
+      <description>İnternet üzerinde ne kadar çok şey okuduğumu, buna rağmen uzun zamandır kitap okumadığımı fark etmem 2010 yılının Nisan ayında şu yazıyı okumama denk geliyor. Yazıyı kesinlikle okumanızı tavsiye ediyorum. Onur KESEN tatlı bir dille okumanın dijital dünya ile uğradığı değişimi irdelemiş. Okumayı sökmemle birlikte başlayan kitap maceram, bilgisayarla tanışana kadar hayatımın en önemli meşgale kaynağıydı. Bilgisayar ya da internet hayatıma girene kadar tam bir kitap kurdu olarak görülüyordum. Şimdilerde ise tam bir bilgisayar kurdu olarak görülüyorum.</description>
+    </item>
+    
+    <item>
+      <title>Fotoğraf Galerisi</title>
+      <link>https://denizatmaca.com/post/galeri/</link>
+      <pubDate>Thu, 27 Apr 1989 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/post/galeri/</guid>
+      <description>&lt;div class=&#34;gallery caption-position-bottom caption-effect-fade hover-effect-zoom hover-transition&#34; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
+	  
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://denizatmaca.com//img/img-1-thumb.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://denizatmaca.com/img/img-1-thumb.jpg&#34; alt=&#34;Olympus OM-D E-M1 | 1/320s. | f5.6 | ISO-200&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://denizatmaca.com/img/img-1.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://denizatmaca.com//img/img-2-thumb.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://denizatmaca.com/img/img-2-thumb.jpg&#34; alt=&#34;Canon EOS 100D | 1/50s. | f1.8 | ISO-800&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://denizatmaca.com/img/img-2.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://denizatmaca.com//img/img-3-thumb.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://denizatmaca.com/img/img-3-thumb.jpg&#34; alt=&#34;Olympus OM-D E-M1 | 1/200s. | f5.6 | ISO-200&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://denizatmaca.com/img/img-3.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://denizatmaca.com/page/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/page/about/</guid>
+      <description>Merhaba! Benim adım Deniz.
+Makine Mühendisiyim. Hali hazırda havacılık sektöründe çalışıyorum.
+Blog kavramı ile ilk tanıştığım günden bu yana aşk/nefret ilişkim var. Sayısız blog açtım ve kapattım. Bu da sonuncusu.
+Blog kavramını sevmemin sebebi bir şeyler anlatmayı sevmem. Bir şeyleri önce araştırmayı sonra da insanları sıkana dek anlatmayı severim. Bu sebepten dolayı 2020 yılında hala blog yazmaya çalışıyorum (Twitter&amp;rsquo;ın bile modası geçti).
+Blogun başlıca konularının aşağıdaki gibi olacağını tahmin ediyorum.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jekyll on Deniz Atmaca</title>
+    <link>https://denizatmaca.com/tags/jekyll/</link>
+    <description>Recent content in jekyll on Deniz Atmaca</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>deniz@denizatmaca.com (Deniz Atmaca)</managingEditor>
+    <webMaster>deniz@denizatmaca.com (Deniz Atmaca)</webMaster>
+    <lastBuildDate>Fri, 03 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://denizatmaca.com/tags/jekyll/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo Sitenizi Github&#39;da Yayınlayın</title>
+      <link>https://denizatmaca.com/post/23-hugo-github-yayinlama/</link>
+      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/post/23-hugo-github-yayinlama/</guid>
+      <description>Önceki yazılarımızda Hugo aracını tanımıştık, bilgisayarımıza yüklemiştik ve ilk sitemizi yapmıştık. Şimdi ise oluşturduğumuz siteyi github&amp;rsquo;a gönderip ücretsiz olarak host edeceğiz.
+Bunun için öncelikle github.com sitesinden hesap açmamız gerekmekte. Daha sonra yeşil &amp;ldquo;New&amp;rdquo; butonuna basarak yeni repository yaratacağız.
+
+Karşımıza aşağıdaki gibi ekran çıkıyor. Burada repository adımızı yazıyoruz. Ben bu örnekte test yazdım, siz ne isterseniz onu yazabilirsiniz. Kalan ayarları değiştirmenize gerek yok. Bu şekilde &amp;ldquo;Create Repository&amp;rdquo; butonuna basarak kaydedebilirsiniz.</description>
+    </item>
+    
+    <item>
+      <title>Hugo ile Statik Site Yapımı</title>
+      <link>https://denizatmaca.com/post/22-hugo-site-yapimi/</link>
+      <pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/post/22-hugo-site-yapimi/</guid>
+      <description>Bir önceki yazımızda Hugo uygulamasını Windows 10 bilgisayarımıza yüklemiştik. Şimdi ilk sitemizi yapacağız.
+Klavyeden Windows+R tuşlarına basıp çıkan kutuya cmd yazıp klavyeden Enter tuşuna basarak komut satırını çalıştırın. 
+Konsol penceresini açmış olduk. Şimdi Hugo dizini altına gitmemiz gerek. Bunun için konsol satırına aşağıdaki komutu yazın.
+cd C:\Hugo  Artık ilk sitemizi yapmaya hazırız. Bunun için konsol satırına aşağıdaki komutu yazın ve Enter tuşuna basın.
+hugo new site test  test burada bizim yaptığımız sitenin adı.</description>
+    </item>
+    
+    <item>
+      <title>Bilgisayarınıza Hugo Yüklemek</title>
+      <link>https://denizatmaca.com/post/21-hugo-yukleme/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/post/21-hugo-yukleme/</guid>
+      <description>Bir önceki yazımda static site generator&amp;rsquo;lardan bahsetmiştim. Hugo nedir diye merak ediyorsanız o yazıya göz atabilirsiniz.
+Bu yazıda ise Windows bilgisayarınıza Hugo nasıl yüklenir bunu öğreneceğiz.
+Öncelikle şuradaki adresi ziyaret edip, sayfanın altında yer alan versiyonlardan işletim sisteminize uygun olanı bilgisayarınıza indirin. C dizinin altına Hugo adında yeni bir klasör oluşturun. Onun altına da bin adında yeni bir klasör oluşturun. Bilgisayarınıza indirdiğiniz zip dosyasının içerisindeki tüm dosyaları bin klasörünün altına kopyalayın.</description>
+    </item>
+    
+    <item>
+      <title>Static Site Dünyasına Giriş</title>
+      <link>https://denizatmaca.com/post/20-static-site-giris/</link>
+      <pubDate>Sat, 28 Dec 2019 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/post/20-static-site-giris/</guid>
+      <description>Statik Site Nedir? Statik web siteleri veritabanına ihtiyaç duymayan, tamamen html dosyalarından oluşan sitelerdir.
+Jekyll, Hugo vs. Nedir? Yakın zamanda hayatımıza static site generator dediğimiz uygulamalar girdi. Bu uygulamalar markdown dilinde yazmış olduğumuz yazıları html dosyalarına çevirmek için birer araç aslında. Şu anda onlarcası bulunan uygulamaların ilki ve halen en popüleri Jekyll. Onu Hugo takip ediyor.
+Neden Statik Site Yapmak İsteyelim? Çünkü bu tür siteleri yapmak çok kolay ve çok hızlı.</description>
+    </item>
+    
+  </channel>
+</rss>

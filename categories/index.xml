@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Deniz Atmaca</title>
+    <link>https://denizatmaca.com/categories/</link>
+    <description>Recent content in Categories on Deniz Atmaca</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>deniz@denizatmaca.com (Deniz Atmaca)</managingEditor>
+    <webMaster>deniz@denizatmaca.com (Deniz Atmaca)</webMaster>
+    <lastBuildDate>Fri, 03 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://denizatmaca.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://denizatmaca.com/categories/hugo/</link>
+      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/categories/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kitap</title>
+      <link>https://denizatmaca.com/categories/kitap/</link>
+      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/categories/kitap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hobi</title>
+      <link>https://denizatmaca.com/categories/hobi/</link>
+      <pubDate>Thu, 20 Nov 2014 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/categories/hobi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gezi</title>
+      <link>https://denizatmaca.com/categories/gezi/</link>
+      <pubDate>Wed, 27 Nov 2013 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/categories/gezi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Konu Dışı</title>
+      <link>https://denizatmaca.com/categories/konu-d%C4%B1%C5%9F%C4%B1/</link>
+      <pubDate>Wed, 30 Oct 2013 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/categories/konu-d%C4%B1%C5%9F%C4%B1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yazılım</title>
+      <link>https://denizatmaca.com/categories/yaz%C4%B1l%C4%B1m/</link>
+      <pubDate>Fri, 12 Oct 2012 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/categories/yaz%C4%B1l%C4%B1m/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>İnceleme</title>
+      <link>https://denizatmaca.com/categories/inceleme/</link>
+      <pubDate>Mon, 16 Jan 2012 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/categories/inceleme/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

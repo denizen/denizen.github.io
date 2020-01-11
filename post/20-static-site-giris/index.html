@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="tr" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Static Site Dünyasına Giriş - Deniz Atmaca</title>
+  <meta name="description" content="Statik Site Nedir? Statik web siteleri veritabanına ihtiyaç duymayan, tamamen html dosyalarından oluşan sitelerdir.
+Jekyll, Hugo vs. Nedir? Yakın zamanda hayatımıza static site generator dediğimiz uygulamalar girdi. Bu uygulamalar markdown dilinde yazmış olduğumuz yazıları html dosyalarına çevirmek için birer araç aslında. Şu anda onlarcası bulunan uygulamaların ilki ve halen en popüleri Jekyll. Onu Hugo takip ediyor.
+Neden Statik Site Yapmak İsteyelim? Çünkü bu tür siteleri yapmak çok kolay ve çok hızlı.">
+  <meta name="author" content="Deniz Atmaca"/><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Deniz Atmaca",
+    
+    "url": "https:\/\/denizatmaca.com\/"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "https:\/\/denizatmaca.com\/"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https:\/\/denizatmaca.com\/",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https:\/\/denizatmaca.com\/post\/20-static-site-giris\/",
+          "name": "Static site dünyasına giriş"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "Deniz Atmaca"
+  },
+  "headline": "Static Site Dünyasına Giriş",
+  "description" : "Statik Site Nedir? Statik web siteleri veritabanına ihtiyaç duymayan, tamamen html dosyalarından oluşan sitelerdir.\nJekyll, Hugo vs. Nedir? Yakın zamanda hayatımıza static site generator dediğimiz uygulamalar girdi. Bu uygulamalar markdown dilinde yazmış olduğumuz yazıları html dosyalarına çevirmek için birer araç aslında. Şu anda onlarcası bulunan uygulamaların ilki ve halen en popüleri Jekyll. Onu Hugo takip ediyor.\nNeden Statik Site Yapmak İsteyelim? Çünkü bu tür siteleri yapmak çok kolay ve çok hızlı.",
+  "inLanguage" : "tr",
+  "wordCount":  372 ,
+  "datePublished" : "2019-12-28T00:00:00",
+  "dateModified" : "2019-12-28T00:00:00",
+  "image" : "https:\/\/denizatmaca.com\/img\/avatar-icon.png",
+  "keywords" : [ "statik site, jekyll, static site generator, github, hosting, hugo" ],
+  "mainEntityOfPage" : "https:\/\/denizatmaca.com\/post\/20-static-site-giris\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https:\/\/denizatmaca.com\/",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https:\/\/denizatmaca.com\/img\/avatar-icon.png",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+<meta property="og:title" content="Static Site Dünyasına Giriş" />
+<meta property="og:description" content="Statik Site Nedir? Statik web siteleri veritabanına ihtiyaç duymayan, tamamen html dosyalarından oluşan sitelerdir.
+Jekyll, Hugo vs. Nedir? Yakın zamanda hayatımıza static site generator dediğimiz uygulamalar girdi. Bu uygulamalar markdown dilinde yazmış olduğumuz yazıları html dosyalarına çevirmek için birer araç aslında. Şu anda onlarcası bulunan uygulamaların ilki ve halen en popüleri Jekyll. Onu Hugo takip ediyor.
+Neden Statik Site Yapmak İsteyelim? Çünkü bu tür siteleri yapmak çok kolay ve çok hızlı.">
+<meta property="og:image" content="https://denizatmaca.com/img/avatar-icon.png" />
+<meta property="og:url" content="https://denizatmaca.com/post/20-static-site-giris/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Deniz Atmaca" />
+
+  <meta name="twitter:title" content="Static Site Dünyasına Giriş" />
+  <meta name="twitter:description" content="Statik Site Nedir? Statik web siteleri veritabanına ihtiyaç duymayan, tamamen html dosyalarından oluşan sitelerdir.
+Jekyll, Hugo vs. Nedir? Yakın zamanda hayatımıza static site generator dediğimiz …">
+  <meta name="twitter:image" content="https://denizatmaca.com/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@darkblack" />
+  <meta name="twitter:creator" content="@darkblack" />
+  <link href='https://denizatmaca.com/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta name="generator" content="Hugo 0.58.3" />
+  <link rel="alternate" href="https://denizatmaca.com/index.xml" type="application/rss+xml" title="Deniz Atmaca"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="https://denizatmaca.com/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  <link rel="stylesheet" href="https://denizatmaca.com/css/highlight.min.css" /><link rel="stylesheet" href="https://denizatmaca.com/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
+
+
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Gezinmeyi aç / kapat</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://denizatmaca.com/">Deniz Atmaca</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Ana Sayfa" href="/">Ana Sayfa</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent">Projeler</a>
+              <div class="navlinks-children">
+                
+                  <a href="/post/galeri">Fotoğraf Galerisi</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Arşiv" href="/categories">Arşiv</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Hakkımda" href="/page/about/">Hakkımda</a>
+            </li>
+          
+        
+
+        
+
+        
+          <li>
+            <a href="#modalSearch" data-toggle="modal" data-target="#modalSearch" style="outline: none;">
+              <span class="hidden-sm hidden-md hidden-lg">Arama</span> <span id="searchGlyph" class="glyphicon glyphicon-search"></span>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+
+    
+      <div class="avatar-container">
+        <div class="avatar-img-border">
+          <a title="Deniz Atmaca" href="https://denizatmaca.com/">
+            <img class="avatar-img" src="https://denizatmaca.com/img/avatar-icon.png" alt="Deniz Atmaca" />
+          </a>
+        </div>
+      </div>
+    
+
+  </div>
+</nav>
+
+
+
+  <div id="modalSearch" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Ara Deniz Atmaca</h4>
+        </div>
+        <div class="modal-body">
+          <gcse:search></gcse:search>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Kapat</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Kapat (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Paylaş"></button>
+      <button class="pswp__button pswp__button--fs" title="Tam Ekran"></button>
+      <button class="pswp__button pswp__button--zoom" title="Yakınlaş/Uzaklaş"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Önceki Fotoğraf">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Sonraki Fotoğraf">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+    <div id="header-big-imgs" data-num-img=3 
+      
+         
+          data-img-src-1="/img/triangle.jpg" 
+         
+         
+      
+         
+          data-img-src-2="/img/sphere.jpg" 
+         
+         
+      
+         
+          data-img-src-3="/img/hexagon.jpg" 
+         
+         
+      ></div>
+  
+
+  <header class="header-section has-img">
+    
+      <div class="intro-header big-img">
+        
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+              <div class="post-heading">
+                <h1>Static Site Dünyasına Giriş</h1>
+                  
+                  
+                    <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Tarih :  28.12.2019
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;2&nbsp;dakika
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;372&nbsp;kelime
+  
+  
+  
+</span>
+
+
+                  
+              </div>
+            </div>
+          </div>
+        </div>
+        <span class="img-desc" style="display: inline;"></span>
+      </div>
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              
+                <h1>Static Site Dünyasına Giriş</h1>
+              
+              
+              
+              
+                <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Tarih :  28.12.2019
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;2&nbsp;dakika
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;372&nbsp;kelime
+  
+  
+  
+</span>
+
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        
+
+<h1 id="statik-site-nedir">Statik Site Nedir?</h1>
+
+<p>Statik web siteleri veritabanına ihtiyaç duymayan, tamamen html dosyalarından oluşan sitelerdir.</p>
+
+<h1 id="jekyll-hugo-vs-nedir">Jekyll, Hugo vs. Nedir?</h1>
+
+<p>Yakın zamanda hayatımıza <strong>static site generator</strong> dediğimiz uygulamalar girdi. Bu uygulamalar markdown dilinde yazmış olduğumuz yazıları html dosyalarına çevirmek için birer araç aslında. Şu anda onlarcası bulunan uygulamaların ilki ve halen en popüleri Jekyll. Onu Hugo takip ediyor.</p>
+
+<h1 id="neden-statik-site-yapmak-isteyelim">Neden Statik Site Yapmak İsteyelim?</h1>
+
+<p>Çünkü bu tür siteleri yapmak çok kolay ve çok hızlı. İşleyişi öğrendikten sonra 2 dk. içerisinde lokalde çalışan bir web sitesine sahip oluyorsunuz.</p>
+
+<h1 id="statik-sitelerin-avantajları">Statik Sitelerin Avantajları</h1>
+
+<ul>
+<li>Kurulumları hızlı ve basit.</li>
+<li>Sayfa yüklenme hızları çok hızlı.</li>
+<li>Ücretsiz.</li>
+<li>Sunucu maliyeti yok (github, bitbucket gibi sitelerde ücretsiz host edebiliyorsunuz).</li>
+<li>İçeriğinizi markdown dilinde hazırlıyorsunuz.</li>
+</ul>
+
+<h1 id="statik-sitelerin-dezavantajları">Statik Sitelerin Dezavantajları</h1>
+
+<ul>
+<li>Her tip siteye uygun değil. Kullanıcılar ile etkileşimli bir site yapmak istiyorsunuz kullanmanız mümkün değil.</li>
+<li>Veritabanı olmadığı için veritabanına ihtiyaç duyduğunuz durumları outsource ediyorsunuz. Örneğin yorum için disqus kullanmak gibi.</li>
+<li>Wordpress ile kıyaslandığında yeterince tema ve eklenti yok.</li>
+</ul>
+
+<h1 id="hugo-vs-jekyll">Hugo vs. Jekyll</h1>
+
+<p>Jekyll tanıtılan ilk static site generator. Github kurucuları tarafından yapılıyor. Bu sebepten dolayı github ile oldukça entegre ve iyi çalışıyor. Açık ara en çok kullanılan static site generator. Onu Hugo takip ediyor. Hugo, go dilinde yazılmış. Jekyll ruby dilinde yazılmıştı. Bu da fazla içeriği olan siteler için Jekyll&rsquo;a biraz hantallık katıyor. Hugo bunun için ortaya çıkmış. Go dili, Ruby&rsquo;e göre daha esnek ve hızlı. Tüm bunlar kafanızı karıştırmasın, statik site yapmak için programlama bilmenize gerek yok.</p>
+
+<p>Ben Hugo uygulamasını tercih ettim ve şu anda gördüğünüz siteyi bu şekilde yapıp github&rsquo;da host etmeye başladım. Önümüzdeki günlerde Hugo&rsquo;nun kurulumundan, site yapımına, host edilmesine kadar tüm aşamalarını anlatan bir yazı serisine başlayacağım. İnternette tüm bu süreci anlatan onlarca Türkçe ve İngilizce kaynak var. Hepsi süreci kısaltmak ve kolaylaştırmak için çeşitli konsol komutları kullanıyor. Ben neredeyse hiç konsol komutu kullanmadan, tamamen arayüz üzerinden tüm süreci anlatmaya çalışacağım. Böylece daha önce kodlama ve github tecrübeniz olmasa bile kendi sitenizi yapıp ücretsiz olarak host edebileceksiniz.</p>
+
+<p>Aşama aşama neler yapacağımızı aşağıda anlatıyorum. Yazılar yayınlandıkça yanlarına linkler eklenecek.</p>
+
+<ul>
+<li>Hugo kurulumu.</li>
+<li>Hugo ile site yapımı.</li>
+<li>Hugo ile yapılan sitenin github&rsquo;da ücretiz host edilmesi.</li>
+<li>Kendi domain adımızın yaptığımız siteye bağlanması.</li>
+</ul>
+
+<p>Belirtmekte yarar var, yazılar Windows işletim sistemi baz alınarak yapılacak. Siz farklı bir işletim sistemi kullanıyorsanız en azından kurulum aşaması için Hugo&rsquo;nun kendi dokümantasyon sayfasına göz gezdirebilirsiniz.</p>
+
+
+        
+          <div class="blog-categories">
+            
+              <b>Kategori :</b> <a href="https://denizatmaca.com//categories/hugo/">Hugo</a>&nbsp;
+            
+          </div>
+        
+
+        
+
+        
+          
+            
+          
+
+          
+                  <h4 class="see-also">Benzer Yazılar</h4>
+                  <ul>
+                
+                
+                    <li><a href="/post/23-hugo-github-yayinlama/">Hugo Sitenizi Github&#39;da Yayınlayın</a></li>
+                
+                    <li><a href="/post/22-hugo-site-yapimi/">Hugo ile Statik Site Yapımı</a></li>
+                
+                    <li><a href="/post/21-hugo-yukleme/">Bilgisayarınıza Hugo Yüklemek</a></li>
+                
+              </ul>
+
+          
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="https://denizatmaca.com/post/15-revell-micro-wings/" data-toggle="tooltip" data-placement="top" title="Revell 1/144 Micro Wings Junkers Ju 87B Stuka Plastik Maket">&larr; Önceki Yazı</a>
+            </li>
+          
+          
+            <li class="next">
+              <a href="https://denizatmaca.com/post/21-hugo-yukleme/" data-toggle="tooltip" data-placement="top" title="Bilgisayarınıza Hugo Yüklemek">Sonraki Yazı &rarr;</a>
+            </li>
+          
+        </ul>
+      
+
+
+      
+        
+        
+      
+
+    </div>
+  </div>
+</div>
+
+      
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:deniz@denizatmaca.com" title="E-Posta">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/atmaca.deniz" title="Facebook">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/darkblack" title="Twitter">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://linkedin.com/in/deniz-atmaca-784b0923" title="LinkedIn">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/deniz.atm" title="Instagram">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/darklback" title="Youtube">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://500px.com/darkblack" title="500px">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-500px fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://flickr.com/denizatm" title="Flickr">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-flickr fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            <a href="" title="RSS">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul><br>
+      <center><b>Copyleft - 2020 Deniz Atmaca. Tüm hakları serbesttir.</b></center>
+        
+        <p class="credits theme-by text-muted">
+           
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer><script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="https://denizatmaca.com/js/main.js"></script>
+<script src="https://denizatmaca.com/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script> renderMathInElement(document.body); </script><script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script><script src="https://denizatmaca.com/js/load-photoswipe.js"></script>
+
+
+
+<script>
+  (function() {
+    var cx = '000791849427090938484:b9jdwjvu9kw';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+
+
+
+
+
+
+
+    
+  </body>
+</html>
+

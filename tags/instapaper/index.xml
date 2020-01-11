@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>instapaper on Deniz Atmaca</title>
+    <link>https://denizatmaca.com/tags/instapaper/</link>
+    <description>Recent content in instapaper on Deniz Atmaca</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>deniz@denizatmaca.com (Deniz Atmaca)</managingEditor>
+    <webMaster>deniz@denizatmaca.com (Deniz Atmaca)</webMaster>
+    <lastBuildDate>Sun, 16 Jan 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://denizatmaca.com/tags/instapaper/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>İnternetten Makale Okuma Sanatı</title>
+      <link>https://denizatmaca.com/post/18-internet-makale-okuma/</link>
+      <pubDate>Sun, 16 Jan 2011 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/post/18-internet-makale-okuma/</guid>
+      <description>İnternet üzerinde ne kadar çok şey okuduğumu, buna rağmen uzun zamandır kitap okumadığımı fark etmem 2010 yılının Nisan ayında şu yazıyı okumama denk geliyor. Yazıyı kesinlikle okumanızı tavsiye ediyorum. Onur KESEN tatlı bir dille okumanın dijital dünya ile uğradığı değişimi irdelemiş. Okumayı sökmemle birlikte başlayan kitap maceram, bilgisayarla tanışana kadar hayatımın en önemli meşgale kaynağıydı. Bilgisayar ya da internet hayatıma girene kadar tam bir kitap kurdu olarak görülüyordum. Şimdilerde ise tam bir bilgisayar kurdu olarak görülüyorum.</description>
+    </item>
+    
+  </channel>
+</rss>

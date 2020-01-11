@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>İnceleme on Deniz Atmaca</title>
+    <link>https://denizatmaca.com/categories/inceleme/</link>
+    <description>Recent content in İnceleme on Deniz Atmaca</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>deniz@denizatmaca.com (Deniz Atmaca)</managingEditor>
+    <webMaster>deniz@denizatmaca.com (Deniz Atmaca)</webMaster>
+    <lastBuildDate>Mon, 16 Jan 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://denizatmaca.com/categories/inceleme/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Lenovo Thinkpad Edge 15 İncelemesi</title>
+      <link>https://denizatmaca.com/post/17-lenovo-thinkpad/</link>
+      <pubDate>Mon, 16 Jan 2012 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/post/17-lenovo-thinkpad/</guid>
+      <description>Bundan önceki bilgisayarım Acer Aspire 4710G modeliydi. Yaklaşık 3 senelik birlikteliğimize nokta koyarak daha bilinçli bir makina alma niyetindeydim. Eski makinamı değiştirmek istememin en büyük sebebi işlemcisinin Core Duo olması ve Linux dağıtımları ile pek iyi geçinememesiydi. Core Duo işlemci hemen her işlem için yeterliyken, iş VirtualBox üzerinde aynı anda 2 işletim sistemi çalıştırmaya gelince tam anlamıyla fiyasko bir performans gösteriyordu. Alacağım makinada aradığım birkaç özellik vardı. Linux ile uyumu yüzünden Nvidia ekran kartı, olabildiğince küçük ekran (13 veya daha küçük) ve Thinkpad.</description>
+    </item>
+    
+    <item>
+      <title>Amazon Kindle 3G İnceleme</title>
+      <link>https://denizatmaca.com/post/1-amazon-kindle-inceleme/</link>
+      <pubDate>Sun, 15 Jan 2012 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/post/1-amazon-kindle-inceleme/</guid>
+      <description>Amazon Kindle ile ilgili gerek Türkçe gerek İngilizce sayısız yorum ve bilgi kaynağı mevcut bu sebeten inceleme işlemini kısa tutacağım. Özetlemek gerekirse Amazon Kindle elektronik mürekkep kullanan okuma cihazlarının öncüsü ve dünyada en çok satan teknolojik aletlerden biridir. Arka aydınlatması olan LCD ekranlara nazaran elektronik mürekkep ve yansımasız ekran kullanması, arka aydınlatması olmaması, neredeyse basılı bir kitabın kalitesine eşdeğer bir okuma performansı vermektedir. Burada ciddi bir uyarıda bulunayım. Bilgisayar, telefon, iPad gibi LCD ekran kullanan cihazlardan uzun süre döküman okuduğunuzda gözlerinizin bozulma riski vardır.</description>
+    </item>
+    
+    <item>
+      <title>Sleeptracker İle Uyku Verimliliğinizi Ölçün</title>
+      <link>https://denizatmaca.com/post/16-sleeptracker-uyku-verimliligi/</link>
+      <pubDate>Sun, 15 Jan 2012 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/post/16-sleeptracker-uyku-verimliligi/</guid>
+      <description>Uyku konusunda çok sıkıntılıyım. Gündüz uyuyup gece takılmayı severim. Böyle olunca saçma sapan bir uyku döngüsüne sahip oluyorsunuz ister istemez. Kafamı yastığa koyduğum an uyuyanlardan değilim. En az 2 saatlik rötarım vardır. Eğer bir gün önce sabah geç kalkmışsam o gece erken uyuyamam. Sabahları yataktan kalkmak benim için ölüm gibidir. Özetle verimsiz bir gece uykusunun sonunda çoğu zaman gün içinde kendimi yorgun ve uykulu hissederim. Açıkçası bu güne kadar bunun hakkında hiç düşünme ihtiyacı hissetmedim.</description>
+    </item>
+    
+    <item>
+      <title>İnternetten Makale Okuma Sanatı</title>
+      <link>https://denizatmaca.com/post/18-internet-makale-okuma/</link>
+      <pubDate>Sun, 16 Jan 2011 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/post/18-internet-makale-okuma/</guid>
+      <description>İnternet üzerinde ne kadar çok şey okuduğumu, buna rağmen uzun zamandır kitap okumadığımı fark etmem 2010 yılının Nisan ayında şu yazıyı okumama denk geliyor. Yazıyı kesinlikle okumanızı tavsiye ediyorum. Onur KESEN tatlı bir dille okumanın dijital dünya ile uğradığı değişimi irdelemiş. Okumayı sökmemle birlikte başlayan kitap maceram, bilgisayarla tanışana kadar hayatımın en önemli meşgale kaynağıydı. Bilgisayar ya da internet hayatıma girene kadar tam bir kitap kurdu olarak görülüyordum. Şimdilerde ise tam bir bilgisayar kurdu olarak görülüyorum.</description>
+    </item>
+    
+  </channel>
+</rss>

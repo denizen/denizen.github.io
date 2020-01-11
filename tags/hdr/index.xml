@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hdr on Deniz Atmaca</title>
+    <link>https://denizatmaca.com/tags/hdr/</link>
+    <description>Recent content in hdr on Deniz Atmaca</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>deniz@denizatmaca.com (Deniz Atmaca)</managingEditor>
+    <webMaster>deniz@denizatmaca.com (Deniz Atmaca)</webMaster>
+    <lastBuildDate>Fri, 05 Oct 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://denizatmaca.com/tags/hdr/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CHDK Nedir?</title>
+      <link>https://denizatmaca.com/post/4-chdk-giris/</link>
+      <pubDate>Fri, 05 Oct 2012 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/post/4-chdk-giris/</guid>
+      <description>CHDK (Canon Hack Development Kit) CHDK Canon fotoğraf makineleri için üçüncü parti hack yazılımıdır. Açılımı Canon Hack Development Kit‘dir. Normalde makinenizle yapamayacağınız şeyleri yapabilmenizi sağlar. Pratikte makinenize zarar vermez ama elbette kimse size bu konuda garanti vermez. Ne CHDK’yı yapanlar, ne de ben. Şimdiye kadar CHDK’dan dolayı makinesine zarar gelen bir kullanıcı raporlanmamıştır. Zaten yapılan işlem oldukça basittir. Fotoğraf makinenize taktığınız sd kartın içine atacağınız 1mb’dan küçük dosyalar ile makinenizin firmware versiyonunu geçici olarak değiştiriyorsunuz.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Deniz Atmaca</title>
+    <link>https://denizatmaca.com/page/</link>
+    <description>Recent content in Pages on Deniz Atmaca</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>deniz@denizatmaca.com (Deniz Atmaca)</managingEditor>
+    <webMaster>deniz@denizatmaca.com (Deniz Atmaca)</webMaster>
+    
+	<atom:link href="https://denizatmaca.com/page/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://denizatmaca.com/page/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/page/about/</guid>
+      <description>Merhaba! Benim adım Deniz.
+Makine Mühendisiyim. Hali hazırda havacılık sektöründe çalışıyorum.
+Blog kavramı ile ilk tanıştığım günden bu yana aşk/nefret ilişkim var. Sayısız blog açtım ve kapattım. Bu da sonuncusu.
+Blog kavramını sevmemin sebebi bir şeyler anlatmayı sevmem. Bir şeyleri önce araştırmayı sonra da insanları sıkana dek anlatmayı severim. Bu sebepten dolayı 2020 yılında hala blog yazmaya çalışıyorum (Twitter&amp;rsquo;ın bile modası geçti).
+Blogun başlıca konularının aşağıdaki gibi olacağını tahmin ediyorum.</description>
+    </item>
+    
+  </channel>
+</rss>
