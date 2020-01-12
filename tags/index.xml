@@ -7,10 +7,73 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>deniz@denizatmaca.com (Deniz Atmaca)</managingEditor>
     <webMaster>deniz@denizatmaca.com (Deniz Atmaca)</webMaster>
-    <lastBuildDate>Fri, 03 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://denizatmaca.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>github</title>
+      <link>https://denizatmaca.com/tags/github/</link>
+      <pubDate>Sat, 11 Jan 2020 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>github pages</title>
+      <link>https://denizatmaca.com/tags/github-pages/</link>
+      <pubDate>Sat, 11 Jan 2020 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/tags/github-pages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hosting</title>
+      <link>https://denizatmaca.com/tags/hosting/</link>
+      <pubDate>Sat, 11 Jan 2020 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/tags/hosting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://denizatmaca.com/tags/hugo/</link>
+      <pubDate>Sat, 11 Jan 2020 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jekyll</title>
+      <link>https://denizatmaca.com/tags/jekyll/</link>
+      <pubDate>Sat, 11 Jan 2020 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/tags/jekyll/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>static site generator</title>
+      <link>https://denizatmaca.com/tags/static-site-generator/</link>
+      <pubDate>Sat, 11 Jan 2020 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/tags/static-site-generator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>statik site</title>
+      <link>https://denizatmaca.com/tags/statik-site/</link>
+      <pubDate>Sat, 11 Jan 2020 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/tags/statik-site/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>1984</title>
@@ -49,43 +112,7 @@
     </item>
     
     <item>
-      <title>github</title>
-      <link>https://denizatmaca.com/tags/github/</link>
-      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
-      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
-      <guid>https://denizatmaca.com/tags/github/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hosting</title>
-      <link>https://denizatmaca.com/tags/hosting/</link>
-      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
-      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
-      <guid>https://denizatmaca.com/tags/hosting/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hugo</title>
-      <link>https://denizatmaca.com/tags/hugo/</link>
-      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
-      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
-      <guid>https://denizatmaca.com/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>jekyll</title>
-      <link>https://denizatmaca.com/tags/jekyll/</link>
-      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
-      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
-      <guid>https://denizatmaca.com/tags/jekyll/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Kitap</title>
+      <title>kitap</title>
       <link>https://denizatmaca.com/tags/kitap/</link>
       <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
       <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
@@ -99,24 +126,6 @@
       <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
       <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
       <guid>https://denizatmaca.com/tags/roman/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>static site generator</title>
-      <link>https://denizatmaca.com/tags/static-site-generator/</link>
-      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
-      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
-      <guid>https://denizatmaca.com/tags/static-site-generator/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>statik site</title>
-      <link>https://denizatmaca.com/tags/statik-site/</link>
-      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
-      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
-      <guid>https://denizatmaca.com/tags/statik-site/</guid>
       <description></description>
     </item>
     

@@ -107,6 +107,17 @@ Bu yazıda ise Windows bilgisayarınıza Hugo nasıl yüklenir bunu …">
 
 
 
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-32203692-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
 
   </head>
   <body>
@@ -258,59 +269,8 @@ Bu yazıda ise Windows bilgisayarınıza Hugo nasıl yüklenir bunu …">
 
 
   
-    <div id="header-big-imgs" data-num-img=3 
-      
-         
-          data-img-src-1="/img/triangle.jpg" 
-         
-         
-      
-         
-          data-img-src-2="/img/sphere.jpg" 
-         
-         
-      
-         
-          data-img-src-3="/img/hexagon.jpg" 
-         
-         
-      ></div>
-  
 
-  <header class="header-section has-img">
-    
-      <div class="intro-header big-img">
-        
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-              <div class="post-heading">
-                <h1>Bilgisayarınıza Hugo Yüklemek</h1>
-                  
-                  
-                    <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;Tarih :  29.12.2019
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;dakika
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;200&nbsp;kelime
-  
-  
-  
-</span>
-
-
-                  
-              </div>
-            </div>
-          </div>
-        </div>
-        <span class="img-desc" style="display: inline;"></span>
-      </div>
+  <header class="header-section ">
     
     <div class="intro-header no-img">
       <div class="container">
@@ -401,6 +361,10 @@ Aslında Hugo&rsquo;yu yükledik fakat konsol üzerinden kullanabilmek için yap
                   <ul>
                 
                 
+                    <li><a href="/post/26-hugo-fotograf/">Hugo Sitenize Fotoğraf Eklemek</a></li>
+                
+                    <li><a href="/post/25-github-custom-domain/">Github Sitenizi Kendi Domainine Yönlendirin</a></li>
+                
                     <li><a href="/post/23-hugo-github-yayinlama/">Hugo Sitenizi Github&#39;da Yayınlayın</a></li>
                 
                     <li><a href="/post/22-hugo-site-yapimi/">Hugo ile Statik Site Yapımı</a></li>
@@ -430,6 +394,20 @@ Aslında Hugo&rsquo;yu yükledik fakat konsol üzerinden kullanabilmek için yap
 
 
       
+        
+          
+          <div class="disqus-comments">                  
+            <button id="show-comments" class="btn btn-default" type="button">Yorumları <span class="disqus-comment-count" data-disqus-url="https://denizatmaca.com/post/21-hugo-yukleme">Göster</span></button>
+            <div id="disqus_thread"></div>
+
+            <script type="text/javascript">
+              var disqus_config = function () {
+              this.page.url = 'https:\/\/denizatmaca.com\/post\/21-hugo-yukleme';
+            };
+
+          </script>
+          </div>
+          
         
         
       
@@ -556,6 +534,28 @@ Aslında Hugo&rsquo;yu yükledik fakat konsol üzerinden kullanabilmek için yap
 
 
 
+
+
+
+<script type="text/javascript">
+$(function(){
+  $('#show-comments').on('click', function(){
+    var disqus_shortname = 'denizatmaca';
+      
+    (function() {
+      var disqus = document.createElement('script'); 
+      disqus.type = 'text/javascript'; 
+      disqus.async = true;
+      disqus.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(disqus);
+    })();
+      
+    $(this).hide(); 
+    });
+  });
+      
+</script>
+<script id="dsq-count-scr" src="//denizatmaca.disqus.com/count.js" async></script>
 
 
 

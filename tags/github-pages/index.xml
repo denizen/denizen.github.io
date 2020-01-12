@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>github pages on Deniz Atmaca</title>
+    <link>https://denizatmaca.com/tags/github-pages/</link>
+    <description>Recent content in github pages on Deniz Atmaca</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>deniz@denizatmaca.com (Deniz Atmaca)</managingEditor>
+    <webMaster>deniz@denizatmaca.com (Deniz Atmaca)</webMaster>
+    <lastBuildDate>Sat, 11 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://denizatmaca.com/tags/github-pages/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo Sitenize Fotoğraf Eklemek</title>
+      <link>https://denizatmaca.com/post/26-hugo-fotograf/</link>
+      <pubDate>Sat, 11 Jan 2020 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/post/26-hugo-fotograf/</guid>
+      <description>Hugo veya Jekyll veya herhangi bir uygulama ile statik site yaparken zorlanacağınız konulardan biri de fotoğraflar oluyor. Özellikle de sitenizi Github Pages&amp;rsquo;da ücretsiz olarak host edecekseniz Github&amp;rsquo;un bazı limitlerine takılmanız olası. Github&amp;rsquo;da yayınlayacağınız her bir sitenin maksimum boyutu 1 GB olmak zorunda. Aylık bandwidth limitiniz ise 100 GB. Siteniz statik sayfalardan oluştuğu için ve hemen her şeyi outsource ettiğiniz için bu limitler oldukça yeterli. Zaten yer kaplayabilecek hemen her şeyi Dropbox, Youtube, Google Drive gibi harici ve ücretsiz servislerde depolayıp sitenize entegre edebilirsiniz.</description>
+    </item>
+    
+  </channel>
+</rss>

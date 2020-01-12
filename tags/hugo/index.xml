@@ -7,10 +7,33 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>deniz@denizatmaca.com (Deniz Atmaca)</managingEditor>
     <webMaster>deniz@denizatmaca.com (Deniz Atmaca)</webMaster>
-    <lastBuildDate>Fri, 03 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://denizatmaca.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hugo Sitenize Fotoğraf Eklemek</title>
+      <link>https://denizatmaca.com/post/26-hugo-fotograf/</link>
+      <pubDate>Sat, 11 Jan 2020 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/post/26-hugo-fotograf/</guid>
+      <description>Hugo veya Jekyll veya herhangi bir uygulama ile statik site yaparken zorlanacağınız konulardan biri de fotoğraflar oluyor. Özellikle de sitenizi Github Pages&amp;rsquo;da ücretsiz olarak host edecekseniz Github&amp;rsquo;un bazı limitlerine takılmanız olası. Github&amp;rsquo;da yayınlayacağınız her bir sitenin maksimum boyutu 1 GB olmak zorunda. Aylık bandwidth limitiniz ise 100 GB. Siteniz statik sayfalardan oluştuğu için ve hemen her şeyi outsource ettiğiniz için bu limitler oldukça yeterli. Zaten yer kaplayabilecek hemen her şeyi Dropbox, Youtube, Google Drive gibi harici ve ücretsiz servislerde depolayıp sitenize entegre edebilirsiniz.</description>
+    </item>
+    
+    <item>
+      <title>Github Sitenizi Kendi Domainine Yönlendirin</title>
+      <link>https://denizatmaca.com/post/25-github-custom-domain/</link>
+      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
+      <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
+      <guid>https://denizatmaca.com/post/25-github-custom-domain/</guid>
+      <description>Bugüne kadar Hugo sitemizi yaptık, Github&amp;rsquo;da yayınlama başladık fakat henüz sitemize Github&amp;rsquo;un verdiği subdomain ile ulaşılabiliyor. Kendi domainimiz var ise bunu kullanabiliriz. Bunu da yapmak çok basit.
+Öncelikle Github&amp;rsquo;da Settings bölümüne geliyoruz.
+
+Altta Custom domain bölümüne gelip sahip olduğunuz domain ismini yazın ve Save butonuna tıklayın.
+
+Şimdi domain kullanıcı panelimize gelip name server yönlendirmesi yapmamız gerekiyor. Domaininizi satın aldığınız servisin domain yönetim paneline girin. DNS Zone bölümüne tıklayın ve aşağıda görebileceğiniz gibi 4 adet A yönlendirmelerinizi yapın.</description>
+    </item>
     
     <item>
       <title>Hugo Sitenizi Github&#39;da Yayınlayın</title>
