@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>statik site on Deniz Atmaca</title>
@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>deniz@denizatmaca.com (Deniz Atmaca)</managingEditor>
     <webMaster>deniz@denizatmaca.com (Deniz Atmaca)</webMaster>
-    <lastBuildDate>Sat, 11 Jan 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://denizatmaca.com/tags/statik-site/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 11 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://denizatmaca.com/tags/statik-site/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo Sitenize Fotoğraf Eklemek</title>
       <link>https://denizatmaca.com/post/26-hugo-fotograf/</link>
@@ -29,9 +25,7 @@
       <guid>https://denizatmaca.com/post/25-github-custom-domain/</guid>
       <description>Bugüne kadar Hugo sitemizi yaptık, Github&amp;rsquo;da yayınlama başladık fakat henüz sitemize Github&amp;rsquo;un verdiği subdomain ile ulaşılabiliyor. Kendi domainimiz var ise bunu kullanabiliriz. Bunu da yapmak çok basit.
 Öncelikle Github&amp;rsquo;da Settings bölümüne geliyoruz.
-
 Altta Custom domain bölümüne gelip sahip olduğunuz domain ismini yazın ve Save butonuna tıklayın.
-
 Şimdi domain kullanıcı panelimize gelip name server yönlendirmesi yapmamız gerekiyor. Domaininizi satın aldığınız servisin domain yönetim paneline girin. DNS Zone bölümüne tıklayın ve aşağıda görebileceğiniz gibi 4 adet A yönlendirmelerinizi yapın.</description>
     </item>
     
@@ -43,8 +37,8 @@ Altta Custom domain bölümüne gelip sahip olduğunuz domain ismini yazın ve S
       <guid>https://denizatmaca.com/post/23-hugo-github-yayinlama/</guid>
       <description>Önceki yazılarımızda Hugo aracını tanımıştık, bilgisayarımıza yüklemiştik ve ilk sitemizi yapmıştık. Şimdi ise oluşturduğumuz siteyi github&amp;rsquo;a gönderip ücretsiz olarak host edeceğiz.
 Bunun için öncelikle github.com sitesinden hesap açmamız gerekmekte. Daha sonra yeşil &amp;ldquo;New&amp;rdquo; butonuna basarak yeni repository yaratacağız.
-
-Karşımıza aşağıdaki gibi ekran çıkıyor. Burada repository adımızı yazıyoruz. Ben bu örnekte test yazdım, siz ne isterseniz onu yazabilirsiniz. Kalan ayarları değiştirmenize gerek yok. Bu şekilde &amp;ldquo;Create Repository&amp;rdquo; butonuna basarak kaydedebilirsiniz.</description>
+Karşımıza aşağıdaki gibi ekran çıkıyor. Burada repository adımızı yazıyoruz. Ben bu örnekte test yazdım, siz ne isterseniz onu yazabilirsiniz. Kalan ayarları değiştirmenize gerek yok. Bu şekilde &amp;ldquo;Create Repository&amp;rdquo; butonuna basarak kaydedebilirsiniz.
+Şu aşamada site adresimizi aldık.</description>
     </item>
     
     <item>
@@ -54,10 +48,10 @@ Karşımıza aşağıdaki gibi ekran çıkıyor. Burada repository adımızı ya
       <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
       <guid>https://denizatmaca.com/post/22-hugo-site-yapimi/</guid>
       <description>Bir önceki yazımızda Hugo uygulamasını Windows 10 bilgisayarımıza yüklemiştik. Şimdi ilk sitemizi yapacağız.
-Klavyeden Windows+R tuşlarına basıp çıkan kutuya cmd yazıp klavyeden Enter tuşuna basarak komut satırını çalıştırın. 
+Klavyeden Windows+R tuşlarına basıp çıkan kutuya cmd yazıp klavyeden Enter tuşuna basarak komut satırını çalıştırın.
 Konsol penceresini açmış olduk. Şimdi Hugo dizini altına gitmemiz gerek. Bunun için konsol satırına aşağıdaki komutu yazın.
-cd C:\Hugo  Artık ilk sitemizi yapmaya hazırız. Bunun için konsol satırına aşağıdaki komutu yazın ve Enter tuşuna basın.
-hugo new site test  test burada bizim yaptığımız sitenin adı.</description>
+cd C:\Hugo	Artık ilk sitemizi yapmaya hazırız. Bunun için konsol satırına aşağıdaki komutu yazın ve Enter tuşuna basın.
+hugo new site test content klasörü yazılarınızın bulunacağı klasördür.</description>
     </item>
     
     <item>

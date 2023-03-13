@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>roman on Deniz Atmaca</title>
@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>deniz@denizatmaca.com (Deniz Atmaca)</managingEditor>
     <webMaster>deniz@denizatmaca.com (Deniz Atmaca)</webMaster>
-    <lastBuildDate>Fri, 03 Jan 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://denizatmaca.com/tags/roman/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 03 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://denizatmaca.com/tags/roman/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1984 - George Orwell (Kitap İncelemesi)</title>
       <link>https://denizatmaca.com/post/24-1984-george-orwell/</link>
@@ -19,8 +15,8 @@
       <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
       <guid>https://denizatmaca.com/post/24-1984-george-orwell/</guid>
       <description>2020 yılının ilk günlerinde Eric Arthur Blair&amp;rsquo;in veya bilinen adı ile George Orwell&amp;rsquo;in 1949 yılında yazdığı ve 1984 yılını anlatan 1984 adlı romanını okumak ilginç olabilir.
-
-1984 var olmayan ve umarız hiçbir zaman var olmayacak bir dünyayı anlatan çarpıcı bir roman. Dünya birbirleri ile savaş halinde olan 3 büyük süper devlete ayrılmıştır. Bunlar Okyanusya, Avrasya ve Doğu Asya devletleridir. Hikayemiz Okyanusya devletinde yaşayan Winston Smith karakterini konu almaktadır.</description>
+1984 var olmayan ve umarız hiçbir zaman var olmayacak bir dünyayı anlatan çarpıcı bir roman. Dünya birbirleri ile savaş halinde olan 3 büyük süper devlete ayrılmıştır. Bunlar Okyanusya, Avrasya ve Doğu Asya devletleridir. Hikayemiz Okyanusya devletinde yaşayan Winston Smith karakterini konu almaktadır.
+Okyanusya zaman içerisinde totaliterleşmiş ve nazilerin ve komunist rusların çökmelerine neden olan hatalarından ders alarak totaliterleşmeyi mükemmeleştirmiş &amp;ldquo;parti&amp;rdquo; adında bir örgüt tarafından baskı altında yönetilmektedir.</description>
     </item>
     
   </channel>

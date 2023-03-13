@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Deniz Atmaca</title>
@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>deniz@denizatmaca.com (Deniz Atmaca)</managingEditor>
     <webMaster>deniz@denizatmaca.com (Deniz Atmaca)</webMaster>
-    <lastBuildDate>Thu, 09 Jan 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://denizatmaca.com/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 09 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://denizatmaca.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo Sitenize Fotoğraf Eklemek</title>
       <link>https://denizatmaca.com/post/26-hugo-fotograf/</link>
@@ -29,9 +25,7 @@
       <guid>https://denizatmaca.com/post/25-github-custom-domain/</guid>
       <description>Bugüne kadar Hugo sitemizi yaptık, Github&amp;rsquo;da yayınlama başladık fakat henüz sitemize Github&amp;rsquo;un verdiği subdomain ile ulaşılabiliyor. Kendi domainimiz var ise bunu kullanabiliriz. Bunu da yapmak çok basit.
 Öncelikle Github&amp;rsquo;da Settings bölümüne geliyoruz.
-
 Altta Custom domain bölümüne gelip sahip olduğunuz domain ismini yazın ve Save butonuna tıklayın.
-
 Şimdi domain kullanıcı panelimize gelip name server yönlendirmesi yapmamız gerekiyor. Domaininizi satın aldığınız servisin domain yönetim paneline girin. DNS Zone bölümüne tıklayın ve aşağıda görebileceğiniz gibi 4 adet A yönlendirmelerinizi yapın.</description>
     </item>
     
@@ -42,8 +36,8 @@ Altta Custom domain bölümüne gelip sahip olduğunuz domain ismini yazın ve S
       <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
       <guid>https://denizatmaca.com/post/24-1984-george-orwell/</guid>
       <description>2020 yılının ilk günlerinde Eric Arthur Blair&amp;rsquo;in veya bilinen adı ile George Orwell&amp;rsquo;in 1949 yılında yazdığı ve 1984 yılını anlatan 1984 adlı romanını okumak ilginç olabilir.
-
-1984 var olmayan ve umarız hiçbir zaman var olmayacak bir dünyayı anlatan çarpıcı bir roman. Dünya birbirleri ile savaş halinde olan 3 büyük süper devlete ayrılmıştır. Bunlar Okyanusya, Avrasya ve Doğu Asya devletleridir. Hikayemiz Okyanusya devletinde yaşayan Winston Smith karakterini konu almaktadır.</description>
+1984 var olmayan ve umarız hiçbir zaman var olmayacak bir dünyayı anlatan çarpıcı bir roman. Dünya birbirleri ile savaş halinde olan 3 büyük süper devlete ayrılmıştır. Bunlar Okyanusya, Avrasya ve Doğu Asya devletleridir. Hikayemiz Okyanusya devletinde yaşayan Winston Smith karakterini konu almaktadır.
+Okyanusya zaman içerisinde totaliterleşmiş ve nazilerin ve komunist rusların çökmelerine neden olan hatalarından ders alarak totaliterleşmeyi mükemmeleştirmiş &amp;ldquo;parti&amp;rdquo; adında bir örgüt tarafından baskı altında yönetilmektedir.</description>
     </item>
     
     <item>
@@ -54,8 +48,8 @@ Altta Custom domain bölümüne gelip sahip olduğunuz domain ismini yazın ve S
       <guid>https://denizatmaca.com/post/23-hugo-github-yayinlama/</guid>
       <description>Önceki yazılarımızda Hugo aracını tanımıştık, bilgisayarımıza yüklemiştik ve ilk sitemizi yapmıştık. Şimdi ise oluşturduğumuz siteyi github&amp;rsquo;a gönderip ücretsiz olarak host edeceğiz.
 Bunun için öncelikle github.com sitesinden hesap açmamız gerekmekte. Daha sonra yeşil &amp;ldquo;New&amp;rdquo; butonuna basarak yeni repository yaratacağız.
-
-Karşımıza aşağıdaki gibi ekran çıkıyor. Burada repository adımızı yazıyoruz. Ben bu örnekte test yazdım, siz ne isterseniz onu yazabilirsiniz. Kalan ayarları değiştirmenize gerek yok. Bu şekilde &amp;ldquo;Create Repository&amp;rdquo; butonuna basarak kaydedebilirsiniz.</description>
+Karşımıza aşağıdaki gibi ekran çıkıyor. Burada repository adımızı yazıyoruz. Ben bu örnekte test yazdım, siz ne isterseniz onu yazabilirsiniz. Kalan ayarları değiştirmenize gerek yok. Bu şekilde &amp;ldquo;Create Repository&amp;rdquo; butonuna basarak kaydedebilirsiniz.
+Şu aşamada site adresimizi aldık.</description>
     </item>
     
     <item>
@@ -65,10 +59,10 @@ Karşımıza aşağıdaki gibi ekran çıkıyor. Burada repository adımızı ya
       <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
       <guid>https://denizatmaca.com/post/22-hugo-site-yapimi/</guid>
       <description>Bir önceki yazımızda Hugo uygulamasını Windows 10 bilgisayarımıza yüklemiştik. Şimdi ilk sitemizi yapacağız.
-Klavyeden Windows+R tuşlarına basıp çıkan kutuya cmd yazıp klavyeden Enter tuşuna basarak komut satırını çalıştırın. 
+Klavyeden Windows+R tuşlarına basıp çıkan kutuya cmd yazıp klavyeden Enter tuşuna basarak komut satırını çalıştırın.
 Konsol penceresini açmış olduk. Şimdi Hugo dizini altına gitmemiz gerek. Bunun için konsol satırına aşağıdaki komutu yazın.
-cd C:\Hugo  Artık ilk sitemizi yapmaya hazırız. Bunun için konsol satırına aşağıdaki komutu yazın ve Enter tuşuna basın.
-hugo new site test  test burada bizim yaptığımız sitenin adı.</description>
+cd C:\Hugo	Artık ilk sitemizi yapmaya hazırız. Bunun için konsol satırına aşağıdaki komutu yazın ve Enter tuşuna basın.
+hugo new site test content klasörü yazılarınızın bulunacağı klasördür.</description>
     </item>
     
     <item>
@@ -129,7 +123,7 @@ Calliope tankı bir başka adı ile T34 tankı ikinci dünya savaşında ABD tar
       <pubDate>Sun, 09 Nov 2014 00:00:00 +0000</pubDate>
       <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
       <guid>https://denizatmaca.com/post/12-revell-boeing-747/</guid>
-      <description>Merhaba. Bugünkü maketimiz Revell’in jumbo jeti, Boeing 747-200 Air Canada modeli. Maketin ölçeği 1&amp;frasl;390, zorluk seviyesi Revell’in 1-5 aralığına göre 3. Fiyatı 15 tl civarında, bitmiş halinin kanat genişliği 156 mm, uzunluğu 183 mm. 60 adet parçadan oluşuyor, küçük, yapımı kolay ve zevkli, ucuz bir maket ile karşınızdayım.
+      <description>Merhaba. Bugünkü maketimiz Revell’in jumbo jeti, Boeing 747-200 Air Canada modeli. Maketin ölçeği 1/390, zorluk seviyesi Revell’in 1-5 aralığına göre 3. Fiyatı 15 tl civarında, bitmiş halinin kanat genişliği 156 mm, uzunluğu 183 mm. 60 adet parçadan oluşuyor, küçük, yapımı kolay ve zevkli, ucuz bir maket ile karşınızdayım.
 Maketten bahsedecek olursam, Boeing 747-200 bugün gökyüzünde görebileceğiniz bir uçak değil, yapımı 1966 yılına dayanıyor, ilk teslimi KLM firmasına 1969 yılında. Son teslimi ise 1990 yılında.</description>
     </item>
     
@@ -211,7 +205,7 @@ Altınoluk İlk gecemiz yolda geçti. Sabahın erken saalerinde Balıkesir Altı
       <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
       <guid>https://denizatmaca.com/post/3-dslr-alacaklara-tavsiyeler/</guid>
       <description>Bu konuda çok fazla kaynak var. Ben de kendi tecrübelerimle bir toparlama yapayım istedim.
-DIŞ GÖVDE  İkinci el makine alırken öncelikle gövdenin kozmetiğine bakarız. Kozmetikten makinenin düşüp düşmediği, hangi koşullarda kullanıldığı belli olur. Kırık, çıkık dışında ufak çiziklerin bir önemi yok. Dslr gövdeler yapıları itibariyle sağlam makinelerdir. Bu aşamada tuşların, mod tekerinin, ayar tekerinin de kontrolünü yapabilirsiniz. Özellikle deklanşörün hassasiyeti iyice kontrol edilmelidir.  NETLİK NOKTALARI  Daha sonra netlik noktalarının yanıp yanmadığı teker teker kontrol edilmeli.</description>
+DIŞ GÖVDE İkinci el makine alırken öncelikle gövdenin kozmetiğine bakarız. Kozmetikten makinenin düşüp düşmediği, hangi koşullarda kullanıldığı belli olur. Kırık, çıkık dışında ufak çiziklerin bir önemi yok. Dslr gövdeler yapıları itibariyle sağlam makinelerdir. Bu aşamada tuşların, mod tekerinin, ayar tekerinin de kontrolünü yapabilirsiniz. Özellikle deklanşörün hassasiyeti iyice kontrol edilmelidir. NETLİK NOKTALARI Daha sonra netlik noktalarının yanıp yanmadığı teker teker kontrol edilmeli.</description>
     </item>
     
     <item>
@@ -221,7 +215,8 @@ DIŞ GÖVDE  İkinci el makine alırken öncelikle gövdenin kozmetiğine bakar�
       <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
       <guid>https://denizatmaca.com/post/6-chdk-menu/</guid>
       <description>CHDK’yı indirdik, kurduk. Sıra geldi kullanmaya.
-ARAYÜZ CHDK’nın çok ilkel bir arayüzü var. İşini yapıyor ama bence pek kullanışlı olduğu söylenemez. Birçok Canon kompakt makinada bir adet hiçbir işe yaramayan, yazdırma tuşu bulunuyor. İşte bu tuş genelde CHDK’yı aktif ya da pasif yapmak için kullandığımız tuş oluyor.  Görselde görünen, Print tuşuna basarak CHDK menülerini aktif hale getirebilirsiniz. Normal Canon menülerinde gezinmek için yine aynı tuşa basarak pasif hale getirmeniz gerekmektedir.</description>
+ARAYÜZ CHDK’nın çok ilkel bir arayüzü var. İşini yapıyor ama bence pek kullanışlı olduğu söylenemez. Birçok Canon kompakt makinada bir adet hiçbir işe yaramayan, yazdırma tuşu bulunuyor. İşte bu tuş genelde CHDK’yı aktif ya da pasif yapmak için kullandığımız tuş oluyor.
+Tüm CHDK ayarlarını işte bu menüden yapıyoruz. Bu başlıkların her birinin altında özellikleri var. Şimdi kısaca menüdeki başlıklar ne işe yarıyor onlara göz atalım.</description>
     </item>
     
     <item>
@@ -287,37 +282,37 @@ ARAYÜZ CHDK’nın çok ilkel bir arayüzü var. İşini yapıyor ama bence pek
       <description>&lt;div class=&#34;gallery caption-position-bottom caption-effect-fade hover-effect-zoom hover-transition&#34; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
 	  
   
-
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://denizatmaca.com//img/img-1-thumb.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://denizatmaca.com/img/img-1-thumb.jpg&#34; alt=&#34;Olympus OM-D E-M1 | 1/320s. | f5.6 | ISO-200&#34;/&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://denizatmaca.com/img/img-1.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-  
-
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://denizatmaca.com//img/img-2-thumb.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://denizatmaca.com/img/img-2-thumb.jpg&#34; alt=&#34;Canon EOS 100D | 1/50s. | f1.8 | ISO-800&#34;/&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://denizatmaca.com/img/img-2.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
+  &lt;link rel=&#34;stylesheet&#34; href=&#34;https://denizatmaca.com/css/hugo-easy-gallery.css&#34; /&gt;
+  &lt;div class=&#34;box&#34; &gt;
+    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://denizatmaca.com//img/img-1-thumb.jpg&#39;);&#34;&gt;
+        &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://denizatmaca.com/img/img-1-thumb.jpg&#34; alt=&#34;Olympus OM-D E-M1 | 1/320s. | f5.6 | ISO-200&#34;/&gt;
+      &lt;/div&gt;
+      &lt;a href=&#34;https://denizatmaca.com/img/img-1.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
 
   
+  
+  &lt;div class=&#34;box&#34; &gt;
+    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://denizatmaca.com//img/img-2-thumb.jpg&#39;);&#34;&gt;
+        &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://denizatmaca.com/img/img-2-thumb.jpg&#34; alt=&#34;Canon EOS 100D | 1/50s. | f1.8 | ISO-800&#34;/&gt;
+      &lt;/div&gt;
+      &lt;a href=&#34;https://denizatmaca.com/img/img-2.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
 
-&lt;div class=&#34;box&#34; &gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
-    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://denizatmaca.com//img/img-3-thumb.jpg&#39;);&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://denizatmaca.com/img/img-3-thumb.jpg&#34; alt=&#34;Olympus OM-D E-M1 | 1/200s. | f5.6 | ISO-200&#34;/&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;https://denizatmaca.com/img/img-3.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
+  
+  
+  &lt;div class=&#34;box&#34; &gt;
+    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://denizatmaca.com//img/img-3-thumb.jpg&#39;);&#34;&gt;
+        &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://denizatmaca.com/img/img-3-thumb.jpg&#34; alt=&#34;Olympus OM-D E-M1 | 1/200s. | f5.6 | ISO-200&#34;/&gt;
+      &lt;/div&gt;
+      &lt;a href=&#34;https://denizatmaca.com/img/img-3.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
 
 
 &lt;/div&gt;</description>

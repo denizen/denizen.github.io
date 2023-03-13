@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>canon on Deniz Atmaca</title>
@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>deniz@denizatmaca.com (Deniz Atmaca)</managingEditor>
     <webMaster>deniz@denizatmaca.com (Deniz Atmaca)</webMaster>
-    <lastBuildDate>Fri, 12 Oct 2012 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://denizatmaca.com/tags/canon/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 12 Oct 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://denizatmaca.com/tags/canon/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CHDK Menülerinde Gezinti</title>
       <link>https://denizatmaca.com/post/6-chdk-menu/</link>
@@ -19,7 +15,8 @@
       <author>deniz@denizatmaca.com (Deniz Atmaca)</author>
       <guid>https://denizatmaca.com/post/6-chdk-menu/</guid>
       <description>CHDK’yı indirdik, kurduk. Sıra geldi kullanmaya.
-ARAYÜZ CHDK’nın çok ilkel bir arayüzü var. İşini yapıyor ama bence pek kullanışlı olduğu söylenemez. Birçok Canon kompakt makinada bir adet hiçbir işe yaramayan, yazdırma tuşu bulunuyor. İşte bu tuş genelde CHDK’yı aktif ya da pasif yapmak için kullandığımız tuş oluyor.  Görselde görünen, Print tuşuna basarak CHDK menülerini aktif hale getirebilirsiniz. Normal Canon menülerinde gezinmek için yine aynı tuşa basarak pasif hale getirmeniz gerekmektedir.</description>
+ARAYÜZ CHDK’nın çok ilkel bir arayüzü var. İşini yapıyor ama bence pek kullanışlı olduğu söylenemez. Birçok Canon kompakt makinada bir adet hiçbir işe yaramayan, yazdırma tuşu bulunuyor. İşte bu tuş genelde CHDK’yı aktif ya da pasif yapmak için kullandığımız tuş oluyor.
+Tüm CHDK ayarlarını işte bu menüden yapıyoruz. Bu başlıkların her birinin altında özellikleri var. Şimdi kısaca menüdeki başlıklar ne işe yarıyor onlara göz atalım.</description>
     </item>
     
     <item>
